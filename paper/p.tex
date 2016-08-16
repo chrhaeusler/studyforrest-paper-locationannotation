@@ -46,7 +46,180 @@
 
 \section*{Materials and methods}
 % Detailed account of the protocol used to generate the dataset
-% C to the anada
+
+
+\subsection{Stimulus Annotations {[}kommt besser runter?{]}}
+\begin{itemize}
+\item Beispiel der Annotation: 
+\begin{table}[h]
+\begin{tabular}{lllllll}
+\multicolumn{7}{l}{Table 1. Fucking Annotation}\tabularnewline
+\hline 
+time & major location & setting & locale & int or ext & flow of time & time of day\tabularnewline
+00:05:00:14  & Greenbow Alabama  & doctor's office  & doctor's office  & ext  & 0 & day\tabularnewline
+00:05:11:24  & Greenbow Alabama  & main street  & in front of barbershop  & ext  & + & day\tabularnewline
+00:05:18:07  & United States  & flashback countryside  & flashback countryside  & ext  & - & day\tabularnewline
+00:05:43:01 & Greenbow Alabama  & main street  & in front of barbershop  & ext  & ++ & day\tabularnewline
+\hline 
+\end{tabular}
+\end{table}
+
+\item figure with examples for the four conditions early in the movie (and
+additional anno, e.g. +, int, day):
+\end{itemize}
+The shortened movie was annotated manually using the free, open source,
+cross-platform video editor Shotcut (version 16.02.01). It offers
+the possibility to watch a movie frame by frame and read a frame's timing
+with the precision of the movie frame rate. A separate spreadsheet
+software (LibreOffice Calc, version 5.1.4.2) was used to write the
+actual annotation into a text file with comma-separated values (structure.csv). 
+
+The annotation file comprises seven columns: One column for 1) the
+shot's start time, 2) the shot's major location, 3) it's setting,
+4) it's locale, 5) an interior exterior distinction of the location,
+6) it's temporal order in respect to the previous shot and 7) it's
+time of day. 
+
+
+\subsubsection{Shot's start time}
+
+A shot's start time is defnied as the first frame of a shot after
+a cut. The timings are written in the format hour:minute:second:frame.
+The values for the frame range from 0 to 24, reflecting the movie's
+frame rate of 25 frames per second. 
+
+To check for human errors and validate the timings, the manual annotation
+was compared to an annotation created by an in-house developed, automated
+cut detection algorithm {[}wer hat's gemacht; ggf. wo Unterschiede
+waren{]}. In summary the shortened version of the movie comprises
+869 cuts (Mdn = 4.92; SD = 10.8607).
+
+
+\subsubsection{Annotation of locations}
+
+The location shown at the beginning of every shot was written into
+three different columns, reflecting increasing granularity: From the
+major location via setting through to locale. The movie's screenplay
+by Robert Roth (first draft; December 18, 1992) served as a template
+for the naming of the filmed locations. Where reasonable namings were
+adjusted. Further spatial information was added to fit into the three
+columns.
+
+Firstly, the major location represents the location on a more abstract
+level. It represents the city resp. town or, if the exact city is
+unknown, the region or country. For example Greenbow, Washington D.C.
+or Vietnam. 
+
+Secondly, the setting represents a subcategory for places which are
+in the same major location, but are not in direct sight. For example
+Forrest Gump's elementary school and the football field, which are
+both in the same major location of Greenbow, Alabama. A switch from
+one setting to another setting is mostly, but not always, congruent
+with a switch to another scene in a cinematographic sense.
+
+Lastly, a setting was further subdivided into distinguishable locales.
+Indoors, a locale is congruent with a particular room bounded by its
+walls or floor. For example Forrest Gump's bedroom, the corridor downstairs
+and the corridor upstairs are three different rooms inside the Gumps'
+house (setting) on the Gumps' property (major location). Outdoors,
+different locales were assumed if two places could be considered as
+different rooms due to their distance to each other, due to logical
+borders or due to no or only a small number of overlapping objects
+and geometrical features {[}Beispiele{]}. A locale is equal to it's
+setting, when a setting depics only one locale. 
+
+
+\subsubsection{Interior exterior distinction }
+
+Regarding the interior exterior distinction, a location inside a building
+or inside a car was labeled with ``int'', while locations outdoors
+were labeled with ``ext''. 
+
+
+\subsubsection{Temporal order}
+
+Firs, every flashback, no matter how short the skipped time is, was
+coded as >>-<<. Second, a >>0<< was chosen, when the cut is supposed
+to show no noticable break in the ongoing stream of time. In other
+words, in those cases the action is supposed to be cutted in a continouos
+fashion, so the action is only shown from a different viewpoint after
+the cut. Third, a ``+'' represents noticeable breaks in the ongoing
+stream of time, ranging from mostly several seconds to about one to
+two hours. Finally, a ``++'' is used for obvious, major time jumps,
+ranging from mostly several hours (e.g. day to night) to a couple
+of years.
+
+
+\subsubsection{Time of day }
+
+The last column represents the time of day as a binary variable. If
+the sun light is at least partially illuminating the scene, the time
+of day is coded as ``day''. By this rationale twilights (early sunrises
+and late sun settings) are also subsumed as ``day''. If sun light
+is entirely missing, the time of day is coded as ``night''. 
+
+
+\subsubsection{from raw annotation to experimental conditions}
+
+The data in the raw annotation were converted to event onset files
+for later use in FSL (ev3 format) by means of two python scripts. 
+
+The first script (01\_structure\_annot\_to\_all\_timings.py) took
+the annotation as input and created a new csv-file (structure\_all\_timings\_10sec.csv)
+with columns ``time\_stamp'', ``seconds'' and ``condition''.
+The time stamp was a copy of the time stamp given in the raw annotation.
+It served for later visual inspection of conditions' correctness by
+easily copy and pasting it into Shotcut. 
+
+The column ``seconds'' coded the timing of an event beginning from
+the movie's start in the format seconds.milliseconds. The column ``condition''
+coded an event's respective condition (``no\_cut'', ``perspective\_change'',
+``locale\_change'', ``setting\_change''). The rules to produce
+the condition from the annotation were as follows: When the major
+location, the setting and the room in one line of the annotation were
+the same as in the previous line, the script returned ``perspective\_change''.
+When only the locale was different to the previous line line, the
+script returned ``locale\_change''. When the setting or the major
+location was / were different, the script returned ``setting\_change''. 
+
+Additionally, the timings of the control condition (``no\_cut'')
+were fit{[}ted{]} into longer lasting shots by the following rationale:
+no\_cuts had to be apart from other no\_cuts and apart from any cut
+by ten seconds {[}better: separated from?{]}. Thus, a shot's duration
+was divided by a factor of ten seconds. The biggest integral multiple
+of ten yielded the number of possible time points for events of the
+no cut condition. Then, the shot's duration was divided by it's corresponding
+integral multiple to yield the temporal distance of the events in
+every shot. By this procedure within individual shots, time points
+are temporally equidistant apart to / from each other. Furthermore,
+this yielded a slight jitter interval past / after / follwing the
+ten second mark different for every shot. An additional jitter, different
+for every no cut was drawn from a gaussian distribution with mean
+= 0 and standard deviation of 1500 ms. The computational results {[}given
+in milliseconds{]} were then aligned to the timing of the movie's
+nearest frame. Finally, timings for all four conditions were written
+to file. 
+
+The total number of events for the conditions were: 386 events for
+perspective\_new (occuring in shots with median shot length of 3.96
+s; SD = 7.484 s), 208 events for perspective\_old (Mdn = 3.5 s; SD
+= 7.470 s), 96 events for setting\_new (Mdn = 8.92; SD = 21.882 s),
+90 events for setting\_old (Mdn = 7.68; SD = 9.440 s), 89 events for
+locale\_change (Mdn = 6.96; SD = 8855 s), 148 events for no\_cut (with
+the chosen factor of ten seconds; in 202 different shots; Mdn = 16.96
+s; SD = 16.090s)
+
+
+\subsubsection{from experimental conditions to FSL's ev3 files }
+{[fuer das Annotations-Paper irrelevant]} The second script (02\_all\_timings\_to\_one\_onset\_file.py) took the intermediary csv-file (structure\_all\_timings\_10sec.csv)
+as input to automatically compute the actual event onset files (EV3
+in plain-text format) for every condition and every subject. Further,
+the script corrected the timings for temporal offsets between the
+annotated, continous movie and the timing of the segments during fMRI
+scanning. Each of the files spans one line per event, whereas each
+line comprises three columns: One for the stimulus onset relative
+to the start of the scan, one for the event's duration (set to 200
+msec) and one for an arbitrary intensity weight.
 
 
 \section*{Dataset validation}
