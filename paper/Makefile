@@ -1,7 +1,7 @@
 SRC=p.tex
 
 all: figures p.pdf
-p.pdf: $(SRC)
+p.pdf: $(SRC) p.bbl
 
 p.odt: p.pdf
 	/usr/share/tex4ht/oolatex p.tex '' '' '' '-interaction=nonstopmode'
