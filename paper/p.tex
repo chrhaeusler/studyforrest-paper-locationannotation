@@ -173,6 +173,13 @@ is entirely missing, the time of day is coded as ``night''.
 
 \subsubsection*{from raw annotation to experimental conditions}
 
+\todo[inline]{this section could be stripped of all FSL/MRI references
+  and converted into a ``validation'' that lists possible conditions
+  and counts the respective events in each, so people get a sense of
+  what is there. I would also remove the ``no-cut'' references, as those
+  are relatively arbitrary decision that are only meaningful in a particular
+context, not for the general annotation data}
+
 The data in the raw annotation were converted to event onset files
 for later use in FSL (ev3 format) by means of two python scripts. 
 
@@ -221,17 +228,6 @@ locale\_change (Mdn = 6.96; SD = 8855 s), 148 events for no\_cut (with
 the chosen factor of ten seconds; in 202 different shots; Mdn = 16.96
 s; SD = 16.090s)
 
-
-\subsubsection*{from experimental conditions to FSL's ev3 files }
-{[fuer das Annotations-Paper irrelevant]} The second script (02\_all\_timings\_to\_one\_onset\_file.py) took the intermediary csv-file (structure\_all\_timings\_10sec.csv)
-as input to automatically compute the actual event onset files (EV3
-in plain-text format) for every condition and every subject. Further,
-the script corrected the timings for temporal offsets between the
-annotated, continous movie and the timing of the segments during fMRI
-scanning. Each of the files spans one line per event, whereas each
-line comprises three columns: One for the stimulus onset relative
-to the start of the scan, one for the event's duration (set to 200
-msec) and one for an arbitrary intensity weight.
 
 \subsection*{Dataset content}
 
