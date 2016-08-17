@@ -56,8 +56,9 @@ cinematography. Cite key papers.}
 \section*{Materials and methods}
 % Detailed account of the protocol used to generate the dataset
 
+\subsection*{Stimulus}
 
-\subsection*{Stimulus Annotations {[}kommt besser runter?{]}}
+\subsection*{Annotation procedure}
 \begin{itemize}
 \item Beispiel der Annotation: 
 \begin{table}[h]
@@ -83,12 +84,13 @@ with the precision of the movie frame rate. A separate spreadsheet
 software (LibreOffice Calc, version 5.1.4.2) was used to write the
 actual annotation into a text file with comma-separated values (structure.csv). 
 
+\subsection*{Annotation content}
+
 The annotation file comprises seven columns: One column for 1) the
 shot's start time, 2) the shot's major location, 3) it's setting,
 4) it's locale, 5) an interior exterior distinction of the location,
 6) it's temporal order in respect to the previous shot and 7) it's
 time of day. 
-
 
 \subsubsection*{Shot's start time}
 
@@ -231,12 +233,23 @@ line comprises three columns: One for the stimulus onset relative
 to the start of the scan, one for the event's duration (set to 200
 msec) and one for an arbitrary intensity weight.
 
+\subsection*{Dataset content}
+
+\todo[inline]{What exactly is released, in what format?}
+
+\paragraph{Source code}
+
+The full source code for all descriptive statistics and figures included in
+this paper is available in \texttt{descriptive\_stats.py} (Python script).
+
 
 \section*{Dataset validation}
 % Information about any validation carried out and/or any limitations of the
 % datasets, including any allowances made for controlling bias or unwanted
 % sources of variability.
 
+\todo[inline]{Place any information and illustrative figures here that help
+people figure out whether these annotation are useful/trustworthy for them}
 
 \section*{Data availability}
 
@@ -248,6 +261,8 @@ msec) and one for an arbitrary intensity weight.
 %individual contributions of each author to the manuscript should be detailed
 %in this section. We recommend using author initials and then stating briefly
 %how they contributed.
+CH design, performed, and validated the annotation, and wrote the manuscript.
+MH provided critical feedback on the procedure and wrote the manuscript.
 
 \section*{Competing Interests}
 No competing interests were disclosed.
@@ -266,6 +281,8 @@ Project: Center for Behavioral Brain Sciences.
 %acknowledge from all those mentioned in the Acknowledgements section.  Please
 %do not list grant funding in this section (this should be included in the
 %Grant information section - See above).
+We are grateful to Daniel Kottke for cross-checking the timing of the cuts in
+the movie using an automated detection routine.
 
 %\nocite{*}
 {\small\bibliographystyle{unsrt}
