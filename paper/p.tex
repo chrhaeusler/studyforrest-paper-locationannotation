@@ -33,7 +33,12 @@
 % importance of the work described in the article. Citations should not be used
 % in the abstract, and the use of abbreviations should be minimized.
 
+\todo[inline]{Write an abstract}
+
 \end{abstract}
+
+\listoftodos[ToDo notes]
+
 \clearpage
 
 %The format of the main body of the article is flexible: it should be concise
@@ -43,12 +48,16 @@
 % Rationale for creating the dataset(s) and/or objectives for the experiment
 % resulting in the dataset - why the data were gathered or produced.
 
+\todo[inline]{Why was it useful to make this annotation? What kind of cognitive processing
+can we investigate with the movie dataset now that we have this annotation?
+How is this kind of research normally done (without movie datasets)? Link to
+cinematography. Cite key papers.}
 
 \section*{Materials and methods}
 % Detailed account of the protocol used to generate the dataset
 
 
-\subsection{Stimulus Annotations {[}kommt besser runter?{]}}
+\subsection*{Stimulus Annotations {[}kommt besser runter?{]}}
 \begin{itemize}
 \item Beispiel der Annotation: 
 \begin{table}[h]
@@ -81,7 +90,7 @@ shot's start time, 2) the shot's major location, 3) it's setting,
 time of day. 
 
 
-\subsubsection{Shot's start time}
+\subsubsection*{Shot's start time}
 
 A shot's start time is defnied as the first frame of a shot after
 a cut. The timings are written in the format hour:minute:second:frame.
@@ -96,7 +105,7 @@ min=\unit[\ShotLengthMin]{s}, max=\unit[\ShotLengthMax]{s},
 median=\unit[\ShotLengthMedian]{s}, SD=\unit[\ShotLengthSD]{s}).
 
 
-\subsubsection{Annotation of locations}
+\subsubsection*{Annotation of locations}
 
 The location shown at the beginning of every shot was written into
 three different columns, reflecting increasing granularity: From the
@@ -130,14 +139,14 @@ and geometrical features {[}Beispiele{]}. A locale is equal to it's
 setting, when a setting depics only one locale. 
 
 
-\subsubsection{Interior exterior distinction }
+\subsubsection*{Interior exterior distinction }
 
 Regarding the interior exterior distinction, a location inside a building
 or inside a car was labeled with ``int'', while locations outdoors
 were labeled with ``ext''. 
 
 
-\subsubsection{Temporal order}
+\subsubsection*{Temporal order}
 
 Firs, every flashback, no matter how short the skipped time is, was
 coded as >>-<<. Second, a >>0<< was chosen, when the cut is supposed
@@ -151,7 +160,7 @@ ranging from mostly several hours (e.g. day to night) to a couple
 of years.
 
 
-\subsubsection{Time of day }
+\subsubsection*{Time of day }
 
 The last column represents the time of day as a binary variable. If
 the sun light is at least partially illuminating the scene, the time
@@ -160,7 +169,7 @@ and late sun settings) are also subsumed as ``day''. If sun light
 is entirely missing, the time of day is coded as ``night''. 
 
 
-\subsubsection{from raw annotation to experimental conditions}
+\subsubsection*{from raw annotation to experimental conditions}
 
 The data in the raw annotation were converted to event onset files
 for later use in FSL (ev3 format) by means of two python scripts. 
@@ -211,7 +220,7 @@ the chosen factor of ten seconds; in 202 different shots; Mdn = 16.96
 s; SD = 16.090s)
 
 
-\subsubsection{from experimental conditions to FSL's ev3 files }
+\subsubsection*{from experimental conditions to FSL's ev3 files }
 {[fuer das Annotations-Paper irrelevant]} The second script (02\_all\_timings\_to\_one\_onset\_file.py) took the intermediary csv-file (structure\_all\_timings\_10sec.csv)
 as input to automatically compute the actual event onset files (EV3
 in plain-text format) for every condition and every subject. Further,
