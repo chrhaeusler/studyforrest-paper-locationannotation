@@ -1,0 +1,871 @@
+Time,major location,setting,locale,flow of time,int or ext,time of day
+00:00:00:00,Paramount,mountain logo,mountain logo,0,ext,day
+00:00:17:00,Savannah,bench at bus stop,sky over Savannah,++,ext,day
+00:02:48:02,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+00:04:32:05,Greenbow Alabama,'doctor''s office','doctor''s office',-,int,day
+00:04:46:08,Greenbow Alabama,'doctor''s office','doctor''s office',0,int,day
+00:05:00:14,Greenbow Alabama,'doctor''s office','doctor''s office',0,int,day
+00:05:11:24,Greenbow Alabama,main street,in front of barbershop,+,ext,day
+00:05:18:07,United States,countryside flashback,countryside flashback,-,ext,day
+00:05:43:01,Greenbow Alabama,main street,in front of barbershop,++,ext,day
+00:05:53:02,Greenbow Alabama,main street,in front of barbershop,0,ext,day
+00:05:58:02,Greenbow Alabama,main street,in front of barbershop,0,ext,day
+00:06:00:01,Greenbow Alabama,main street,in front of barbershop,0,ext,day
+00:06:01:21,Greenbow Alabama,main street,in front of barbershop,0,ext,day
+00:06:03:01,Greenbow Alabama,main street,in front of barbershop,0,ext,day
+00:06:25:16,Gump property,access-road,at the mail boxes,+,ext,day
+00:06:42:20,Gump property,access-road,alley to Gump House,+,ext,day
+00:07:05:15,Gump property,Gump House,front of Gump House,0,ext,day
+00:07:14:12,Greenbow Alabama,school,'Hancock''s office',++,int,day
+00:07:18:14,Greenbow Alabama,school,'Hancock''s office',0,int,day
+00:07:23:11,Greenbow Alabama,school,'Hancock''s office',0,int,day
+00:07:27:19,Greenbow Alabama,school,school hallway,0,int,day
+00:07:42:11,Greenbow Alabama,school,'Hancock''s office',0,int,day
+00:07:46:21,Greenbow Alabama,school,'Hancock''s office',0,int,day
+00:07:51:09,Greenbow Alabama,school,'Hancock''s office',0,int,day
+00:07:55:13,Greenbow Alabama,school,'Hancock''s office',0,int,day
+00:08:12:17,Greenbow Alabama,school,'Hancock''s office',0,int,day
+00:08:16:02,Greenbow Alabama,school,'Hancock''s office',0,int,day
+00:08:20:04,Greenbow Alabama,school,school hallway,0,int,day
+00:08:27:17,Greenbow Alabama,school,'Hancock''s office',0,int,day
+00:08:32:08,Greenbow Alabama,school,'Hancock''s office',0,int,day
+00:08:36:22,Gump property,Gump House,front of Gump House,++,ext,night
+00:08:42:06,Gump property,Gump House,front of Gump House,0,ext,night
+00:08:46:19,Gump property,Gump House,front of Gump House,+,ext,night
+00:09:15:18,Gump property,Gump House,'Forrest''s bedroom',+,int,night
+00:09:46:12,Gump property,Gump House,front of Gump House,++,ext,day
+00:09:54:21,Gump property,Gump House,corridor downstairs,0,int,day
+00:10:12:02,Gump property,Gump House,corridor upstairs,+,int,day
+00:10:30:10,Gump property,Gump House,'Jenny''s bedroom',0,int,day
+00:10:32:12,Gump property,Gump House,'Jenny''s bedroom',0,int,day
+00:10:33:16,Gump property,Gump House,'Jenny''s bedroom',0,int,day
+00:10:36:09,Gump property,Gump House,'Jenny''s bedroom',0,int,day
+00:10:56:22,Gump property,Gump House,'Jenny''s bedroom',0,int,day
+00:10:59:11,Gump property,Gump House,'Jenny''s bedroom',0,int,day
+00:11:09:14,Greenbow Alabama,main street,in front of electronic store,++,ext,night
+00:11:15:00,Greenbow Alabama,main street,in front of electronic store,0,ext,night
+00:11:19:20,Greenbow Alabama,main street,in front of electronic store,0,ext,night
+00:11:21:14,Greenbow Alabama,main street,in front of electronic store,0,ext,night
+00:11:26:05,Greenbow Alabama,main street,in front of electronic store,0,ext,night
+00:11:32:13,Greenbow Alabama,main street,in front of electronic store,0,ext,night
+00:11:42:14,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+00:11:52:17,Gump property,access-road,at the mail boxes,-,ext,day
+00:12:01:09,Gump property,access-road,at the mail boxes,0,ext,day
+00:12:07:11,Gump property,access-road,at the mail boxes,0,ext,day
+00:12:10:02,Gump property,access-road,at the mail boxes,0,ext,day
+00:12:12:22,Gump property,access-road,at the mail boxes,0,ext,day
+00:12:18:11,Gump property,access-road,at the mail boxes,0,ext,day
+00:12:20:17,Gump property,access-road,at the mail boxes,0,ext,day
+00:12:23:02,Gump property,access-road,at the mail boxes,0,ext,day
+00:12:25:04,Gump property,access-road,at the mail boxes,0,ext,day
+00:12:32:06,Greenbow Alabama,school bus,inside driving bus,0,int,day
+00:12:35:06,Greenbow Alabama,school bus,inside driving bus,0,int,day
+00:12:37:22,Greenbow Alabama,school bus,inside driving bus,0,int,day
+00:12:39:08,Greenbow Alabama,school bus,inside driving bus,0,int,day
+00:12:40:16,Greenbow Alabama,school bus,inside driving bus,0,int,day
+00:12:41:16,Greenbow Alabama,school bus,inside driving bus,0,int,day
+00:12:50:06,Greenbow Alabama,school bus,inside driving bus,0,int,day
+00:12:51:07,Greenbow Alabama,school bus,inside driving bus,0,int,day
+00:12:58:13,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+00:13:11:01,Greenbow Alabama,school bus,inside driving bus,-,int,day
+00:13:19:14,Greenbow Alabama,school bus,inside driving bus,0,int,day
+00:13:21:19,Greenbow Alabama,school bus,inside driving bus,0,int,day
+00:13:26:07,Greenbow Alabama,school bus,inside driving bus,0,int,day
+00:13:28:00,Greenbow Alabama,school bus,inside driving bus,0,int,day
+00:13:33:11,Greenbow Alabama,school bus,inside driving bus,0,int,day
+00:13:49:08,Greenbow Alabama,school bus,inside school bus,0,int,day
+00:13:53:12,Greenbow Alabama,school bus,inside school bus,0,int,day
+00:13:56:24,Greenbow Alabama,school bus,inside school bus,0,int,day
+00:13:59:22,Greenbow Alabama,school bus,inside school bus,0,int,day
+00:14:07:08,Greenbow Alabama,tree on a field,tree on a field,++,ext,day
+00:14:12:03,Greenbow Alabama,tree on a field,tree on a field,+,ext,day
+00:14:17:05,Greenbow Alabama,tree on a field,tree on a field,++,ext,day
+00:14:21:04,Greenbow Alabama,tree on a field,tree on a field,+,ext,day
+00:14:25:05,Greenbow Alabama,tree on a field,tree on a field,++,ext,day
+00:14:32:08,Greenbow Alabama,tree on a field,tree on a field,0,ext,day
+00:14:46:02,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+00:14:51:04,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+00:14:59:20,Gump property,access-road,alley to Gump House,-,ext,day
+00:15:01:20,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:02:24,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:04:22,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:06:00,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:07:24,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:09:01,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:10:12,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:11:07,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:12:18,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:14:20,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:16:10,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:19:24,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:24:22,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:28:04,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:31:04,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:32:14,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:33:23,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:35:14,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:37:08,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:43:08,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:45:16,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:48:04,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:51:02,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:53:21,Gump property,access-road,alley to Gump House,0,ext,day
+00:15:59:15,Gump property,access-road,alley to Gump House,0,ext,day
+00:16:01:11,Gump property,access-road,alley to Gump House,0,ext,day
+00:16:03:06,Gump property,access-road,alley to Gump House,0,ext,day
+00:16:04:22,Gump property,access-road,alley to Gump House,0,ext,day
+00:16:08:18,Gump property,access-road,alley to Gump House,0,ext,day
+00:16:12:14,Gump property,access-road,alley to Gump House,0,ext,day
+00:16:15:02,Gump property,access-road,alley to Gump House,0,ext,day
+00:16:20:00,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+00:16:23:07,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+00:16:24:22,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+00:16:31:06,Gump property,access-road,alley to Gump House,-,ext,day
+00:16:40:15,Gump property,access-road,meadow near Gump House,0,ext,day
+00:16:48:24,Greenbow Alabama,road with bridge,road with bridge,+,ext,day
+00:16:55:12,Greenbow Alabama,road between trees,road between trees,+,ext,day
+00:16:58:18,Greenbow Alabama,main street,in front of barbershop,+,ext,day
+00:17:06:19,Greenbow Alabama,'Jenny''s house','front of Jenny''s house',+,ext,day
+00:17:20:07,Greenbow Alabama,'Jenny''s house','front of Jenny''s house',0,ext,day
+00:17:41:05,Greenbow Alabama,'Jenny''s house','front of Jenny''s house',0,ext,day
+00:17:52:23,Greenbow Alabama,'Jenny''s house','field near Jenny''s house',0,ext,day
+00:17:54:24,Greenbow Alabama,'Jenny''s house','field near Jenny''s house',0,ext,day
+00:17:58:16,Greenbow Alabama,'Jenny''s house','field near Jenny''s house',0,ext,day
+00:18:03:08,Greenbow Alabama,'Jenny''s house','field near Jenny''s house',0,ext,day
+00:18:04:18,Greenbow Alabama,'Jenny''s house','field near Jenny''s house',0,ext,day
+00:18:06:21,Greenbow Alabama,'Jenny''s house','field near Jenny''s house',0,ext,day
+00:18:14:17,Greenbow Alabama,'Jenny''s house','field near Jenny''s house',0,ext,day
+00:18:30:07,Greenbow Alabama,'Jenny''s grandma''s trailer','Jenny''s grandma''s trailer',++,ext,day
+00:18:43:22,Gump property,Gump House,front of Gump House,++,ext,night
+00:18:55:20,Gump property,Gump House,'Forrest''s bedroom',+,int,night
+00:19:04:10,Gump property,access-road,alley to Gump House,++,ext,day
+00:19:09:09,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:10:05,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:13:01,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:14:09,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:15:02,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:17:09,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:20:16,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:22:00,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:23:04,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:24:02,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:25:01,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:26:09,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:27:16,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:29:20,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:31:16,Gump property,access-road,inside the pursuing car,0,int,day
+00:19:33:00,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:34:11,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:35:12,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:37:20,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:38:17,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:40:10,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:49:14,Gump property,access-road,alley to Gump House,0,ext,day
+00:19:52:03,Gump property,access-road,meadow near Gump House,0,ext,day
+00:19:54:00,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+00:20:01:20,Greenbow Alabama,football field,road next to football field,-,ext,day
+00:20:10:19,Greenbow Alabama,football field,road next to football field,0,ext,day
+00:20:18:06,Greenbow Alabama,football field,stands,0,ext,day
+00:20:19:03,Greenbow Alabama,football field,on the football field,0,ext,day
+00:20:19:24,Greenbow Alabama,football field,stands,0,ext,day
+00:20:22:12,Greenbow Alabama,football field,on the football field,0,ext,day
+00:20:26:17,Greenbow Alabama,football field,stands,0,ext,day
+00:20:31:03,Greenbow Alabama,football field,stands,0,ext,day
+00:20:32:21,Greenbow Alabama,football field,stands,0,ext,day
+00:20:35:22,Greenbow Alabama,football field,on the football field,0,ext,day
+00:20:41:01,University of Alabama,football stadium,football field in stadium,++,ext,day
+00:20:41:23,University of Alabama,football stadium,stands,0,ext,day
+00:20:44:21,University of Alabama,football stadium,football field in stadium,0,ext,day
+00:20:50:21,University of Alabama,football stadium,technical area,0,ext,day
+00:20:53:18,University of Alabama,football stadium,football field in stadium,0,ext,day
+00:20:58:10,University of Alabama,football stadium,football field in stadium,0,ext,day
+00:21:01:07,University of Alabama,football stadium,stands,0,ext,day
+00:21:05:22,University of Alabama,football stadium,technical area,0,ext,day
+00:21:08:21,University of Alabama,football stadium,football field in stadium,0,ext,day
+00:21:10:19,University of Alabama,football stadium,football field in stadium,0,ext,day
+00:21:13:13,University of Alabama,football stadium,football field in stadium,0,ext,day
+00:21:17:02,University of Alabama,football stadium,football field in stadium,0,ext,day
+00:21:19:07,University of Alabama,football stadium,end zone,0,ext,day
+00:21:24:07,University of Alabama,football stadium,technical area,0,ext,day
+00:21:32:14,University of Alabama,Margaret Mitchell Hall,in front of dormitory,++,ext,night
+00:21:37:21,University of Alabama,Margaret Mitchell Hall,in front of dormitory,0,ext,night
+00:21:40:16,University of Alabama,Margaret Mitchell Hall,in front of dormitory,0,ext,night
+00:21:42:22,University of Alabama,Margaret Mitchell Hall,in front of dormitory,0,ext,night
+00:21:46:06,University of Alabama,Margaret Mitchell Hall,in front of dormitory,0,ext,night
+00:21:50:20,University of Alabama,Margaret Mitchell Hall,in front of dormitory,0,ext,night
+00:21:54:11,University of Alabama,Margaret Mitchell Hall,in front of dormitory,0,ext,night
+00:21:59:21,University of Alabama,Margaret Mitchell Hall,in front of dormitory,0,ext,night
+00:22:03:05,University of Alabama,Margaret Mitchell Hall,in front of dormitory,0,ext,night
+00:22:04:04,University of Alabama,Margaret Mitchell Hall,in front of dormitory,0,ext,night
+00:22:09:14,University of Alabama,Margaret Mitchell Hall,in front of dormitory,0,ext,night
+00:23:04:20,University of Alabama,'girl''s dormitory',corrridor,+,int,night
+00:23:17:18,University of Alabama,'girl''s dormitory','Jenny''s room',+,int,night
+00:24:00:02,University of Alabama,'girl''s dormitory','Jenny''s room',0,int,night
+00:24:06:23,University of Alabama,'girl''s dormitory','Jenny''s room',0,int,night
+00:24:12:15,University of Alabama,'girl''s dormitory','Jenny''s room',0,int,night
+00:24:17:19,University of Alabama,'girl''s dormitory','Jenny''s room',0,int,night
+00:24:42:15,University of Alabama,'girl''s dormitory','Jenny''s room',0,int,night
+00:24:51:24,University of Alabama,'girl''s dormitory','Jenny''s room',0,int,night
+00:25:15:11,University of Alabama,'girl''s dormitory','Jenny''s room',0,int,night
+00:25:25:07,University of Alabama,football stadium,stands,++,ext,day
+00:25:28:15,University of Alabama,football stadium,football field in stadium,0,ext,day
+00:25:31:24,University of Alabama,football stadium,end zone,0,ext,day
+00:25:33:08,University of Alabama,football stadium,football field in stadium,0,ext,day
+00:25:34:17,University of Alabama,football stadium,end zone,0,ext,day
+00:25:40:04,University of Alabama,football stadium,end zone,0,ext,day
+00:25:45:05,Washington D.C.,White House,front of White House (broadcast),++,ext,day
+00:25:49:15,Washington D.C.,White House,unknown / other (broadcast),0,int,day
+00:25:56:10,Washington D.C.,White House,room with buffet,+,int,day
+00:26:16:06,Washington D.C.,White House,room with buffet,+,int,day
+00:26:20:01,Washington D.C.,White House,Oval Office (broadcast),+,int,day
+00:26:28:10,Washington D.C.,White House,Oval Office (broadcast),0,int,day
+00:26:34:08,Washington D.C.,White House,Oval Office (broadcast),0,int,day
+00:26:39:05,Washington D.C.,White House,'president''s bathroom',+,int,day
+00:26:59:02,Dallas,downtown Dallas,Dealey Plaza (broadcast),++,ext,day
+00:27:03:07,Los Angeles,Ambassador Hotel,ballroom (broadcast),++,int,day
+00:27:08:00,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+00:27:14:03,University of Alabama,college graduation,stage and audience,-,ext,day
+00:27:23:10,University of Alabama,college graduation,stage and audience,0,ext,day
+00:27:25:13,University of Alabama,college graduation,in front of statue,+,ext,day
+00:27:38:13,University of Alabama,college graduation,in front of statue,0,ext,day
+00:27:41:04,United States,army bus,inside army bus,++,int,day
+00:27:47:12,United States,army bus,inside army bus,0,int,day
+00:28:01:21,United States,army bus,inside army bus,0,int,day
+00:28:03:19,United States,army bus,inside army bus,0,int,day
+00:28:05:20,United States,army bus,inside army bus,0,int,day
+00:28:10:03,United States,army bus,inside army bus,0,int,day
+00:28:12:12,United States,army bus,inside army bus,0,int,day
+00:28:55:11,Bayou La Batre,fine house,'fine house''s dining room',-,int,day
+00:28:59:13,Bayou La Batre,fine house,'fine house''s dining room',-,int,day
+00:29:04:20,United States,army bus,inside army bus,++,int,day
+00:29:19:03,United States,barracks,dormitory,++,int,day
+00:29:56:10,United States,barracks,dormitory,++,int,day
+00:30:45:13,United States,barracks,dormitory,++,int,day
+00:30:56:09,United States,barracks,dormitory,++,int,day
+00:31:11:20,United States,barracks,dormitory,++,int,night
+00:31:16:15,United States,barracks,dormitory,0,int,night
+00:31:38:10,United States,barracks,dormitory,0,int,night
+00:31:41:17,United States,barracks,dormitory,0,int,night
+00:31:47:08,United States,barracks,dormitory,0,int,night
+00:31:55:20,Memphis,night club,inside the night club,++,int,night
+00:32:31:11,Memphis,night club,inside the night club,0,int,night
+00:32:32:14,Memphis,night club,inside the night club,0,int,night
+00:32:46:19,Memphis,night club,inside the night club,0,int,night
+00:32:58:11,Memphis,night club,inside the night club,0,int,night
+00:33:04:12,Memphis,night club,inside the night club,0,int,night
+00:33:10:08,Memphis,night club,inside the night club,0,int,night
+00:33:13:12,Memphis,night club,inside the night club,0,int,night
+00:33:18:20,Memphis,night club,inside the night club,0,int,night
+00:33:21:11,Memphis,night club,inside the night club,0,int,night
+00:33:22:22,Memphis,night club,inside the night club,0,int,night
+00:33:24:20,Memphis,night club,inside the night club,0,int,night
+00:33:25:11,Memphis,night club,inside the night club,0,int,night
+00:33:33:16,Memphis,night club,inside the night club,0,int,night
+00:33:37:04,Memphis,night club,inside the night club,0,int,night
+00:33:40:07,Memphis,night club,inside the night club,0,int,night
+00:33:45:00,Memphis,night club,inside the night club,0,int,night
+00:33:48:24,Memphis,bridge near club,bridge near club,+,ext,night
+00:33:57:24,Memphis,bridge near club,bridge near club,0,ext,night
+00:34:01:22,Memphis,bridge near club,bridge near club,0,ext,night
+00:34:05:08,Memphis,bridge near club,bridge near club,0,ext,night
+00:34:09:13,Memphis,bridge near club,bridge near club,0,ext,night
+00:34:33:06,Memphis,bridge near club,bridge near club,0,ext,night
+00:34:43:03,Memphis,bridge near club,bridge near club,0,ext,night
+00:34:49:15,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:03:07,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:05:17,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:07:07,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:11:09,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:12:23,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:15:18,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:27:10,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:31:16,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:35:16,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:37:03,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:38:13,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:42:09,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:46:03,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:47:16,Memphis,bridge near club,bridge near club,0,ext,night
+00:35:50:15,Vietnam,Military Base,helicopter,++,ext,day
+00:36:06:12,Vietnam,Military Base,helicopter,+,ext,day
+00:36:33:04,Vietnam,Military Base,barbecue near river,0,ext,day
+00:36:57:17,Vietnam,Military Base,'at Dan''s tent',0,ext,day
+00:37:36:21,Vietnam,Military Base,'at Dan''s tent',0,ext,day
+00:37:41:12,Vietnam,Military Base,'at Dan''s tent',0,ext,day
+00:37:46:01,Vietnam,Military Base,'at Dan''s tent',0,ext,day
+00:37:59:07,Vietnam,Military Base,'at Dan''s tent',0,ext,day
+00:38:01:07,Vietnam,Military Base,'at Dan''s tent',0,ext,day
+00:38:06:18,Vietnam,Military Base,'at Dan''s tent',0,ext,day
+00:38:26:12,Vietnam,Military Base,'at Dan''s tent',0,ext,day
+00:38:28:24,United States,battlefield in Revolutionary War,battlefield in Revolutionary War,-,ext,day
+00:38:30:11,United States,battlefield in American Zivil War,battlefield in American Zivil War,++,ext,day
+00:38:32:01,Europe,battlefield in World War 1,battlefield in World War 1,++,ext,day
+00:38:33:05,Europe,battlefield in World War 2,battlefield in World War 2,++,ext,day
+00:38:35:07,Vietnam,Military Base,'at Dan''s tent',++,ext,day
+00:39:19:14,Vietnam,rice field in front of mountains,rice field in front of mountains,++,ext,day
+00:39:27:22,Vietnam,rice field in front of mountains,rice field in front of mountains,0,ext,day
+00:39:35:09,Vietnam,road betweeen rice fields,road betweeen rice fields,++,ext,day
+00:39:46:18,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:39:56:17,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:39:58:18,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:40:05:22,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:40:21:04,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:40:23:01,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:40:31:02,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:40:34:07,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:40:41:07,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:40:42:22,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:40:45:23,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:40:47:11,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:40:49:01,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:40:51:05,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:40:55:08,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:41:01:00,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:41:03:21,Vietnam,road betweeen rice fields,road betweeen rice fields,0,ext,day
+00:41:16:22,Vietnam,field with NLF tunnel,field with NLF tunnel,++,ext,day
+00:41:28:15,Vietnam,flooded rice field,flooded rice field,++,ext,day
+00:41:39:05,Vietnam,foxhole in jungle,foxhole in jungle,++,ext,day
+00:41:45:04,Vietnam,random rainy jungle,random rainy jungle,++,ext,day
+00:41:48:24,Vietnam,rainy field,rainy field,++,ext,day
+00:41:51:17,Vietnam,flooded jungle,flooded jungle,++,ext,day
+00:41:56:18,Vietnam,rain-swept camp,rain-swept camp,++,ext,night
+00:43:03:00,Vietnam,rain-swept camp,rain-swept camp,+,ext,night
+00:43:20:21,Greenbow Alabama,'Jenny''s grandma''s trailer','Jenny''s grandma''s trailer',0,ext,day
+00:43:31:14,Vietnam,rain-swept camp,rain-swept camp,0,ext,night
+00:43:38:19,Vietnam,embattled jungle,embattled embankment,++,ext,day
+00:44:20:08,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:44:26:03,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:44:27:21,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:44:29:05,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:44:30:15,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:44:38:18,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:44:41:01,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:44:44:21,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:44:46:16,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:44:47:11,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:44:49:00,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:44:51:04,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:44:52:16,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:44:53:15,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:44:59:15,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:45:01:07,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:45:02:11,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:45:03:07,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:45:04:11,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:45:06:05,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:45:06:22,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:45:08:08,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:45:09:03,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:45:10:18,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:45:12:04,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:45:15:07,Vietnam,embattled jungle,embattled embankment,0,ext,day
+00:45:23:00,Vietnam,embattled jungle,in the embattled jungle,0,ext,day
+00:45:26:23,Vietnam,embattled jungle,in the embattled jungle,0,ext,day
+00:45:35:04,Vietnam,embattled jungle,in the embattled jungle,0,ext,day
+00:45:44:00,Vietnam,embattled jungle,in front of embattled jungle,0,ext,day
+00:46:01:19,Vietnam,embattled jungle,in the embattled jungle,0,ext,day
+00:46:06:14,Vietnam,embattled jungle,finding place of Tex,0,ext,day
+00:46:20:12,Vietnam,embattled jungle,finding place of Tex,0,ext,day
+00:46:22:07,Vietnam,embattled jungle,finding place of Tex,0,ext,day
+00:46:23:09,Vietnam,embattled jungle,finding place of Tex,0,ext,day
+00:46:29:12,Vietnam,embattled jungle,finding place of Tex,0,ext,day
+00:46:31:05,Vietnam,embattled jungle,in the embattled jungle,0,ext,day
+00:46:37:16,Vietnam,embattled jungle,glade at river,+,ext,day
+00:46:48:11,Vietnam,embattled jungle,in the embattled jungle,+,ext,day
+00:46:52:19,Vietnam,embattled jungle,glade at river,+,ext,day
+00:46:58:06,Vietnam,embattled jungle,finding place of Dallas,+,ext,day
+00:47:01:03,Vietnam,embattled jungle,glade at river,+,ext,day
+00:47:03:07,Vietnam,embattled jungle,glade at river,0,ext,day
+00:47:06:05,Vietnam,embattled jungle,in the embattled jungle,+,ext,day
+00:47:10:23,Vietnam,embattled jungle,finding place of Dan,0,ext,day
+00:47:36:06,Vietnam,embattled jungle,finding place of Dan,0,ext,day
+00:47:45:10,Vietnam,embattled jungle,glade in embattled jungle,+,ext,day
+00:47:51:15,Vietnam,embattled jungle,glade in embattled jungle,0,ext,day
+00:47:56:06,Vietnam,embattled jungle,glade in embattled jungle,0,ext,day
+00:47:57:23,Vietnam,embattled jungle,glade in embattled jungle,0,ext,day
+00:48:01:06,Vietnam,embattled jungle,in the embattled jungle,+,ext,day
+00:48:03:23,Vietnam,embattled jungle,in the embattled jungle,0,ext,day
+00:48:09:01,Vietnam,embattled jungle,in front of embattled jungle,0,ext,day
+00:48:16:06,Vietnam,embattled jungle,glade at river,0,ext,day
+00:48:21:02,Vietnam,embattled jungle,glade at river,0,ext,day
+00:48:28:05,Vietnam,embattled jungle,glade at river,0,ext,day
+00:48:34:06,Vietnam,embattled jungle,in the embattled jungle,+,ext,day
+00:48:41:13,Vietnam,embattled jungle,finding place of Bubba,0,ext,day
+00:48:49:23,Vietnam,embattled jungle,finding place of Bubba,0,ext,day
+00:48:58:03,Vietnam,embattled jungle,finding place of Bubba,0,ext,day
+00:48:59:24,Vietnam,embattled jungle,finding place of Bubba,0,ext,day
+00:49:25:01,Vietnam,embattled jungle,in the embattled jungle,+,ext,day
+00:49:30:12,Vietnam,embattled jungle,in the embattled jungle,0,ext,day
+00:49:36:18,Vietnam,embattled jungle,in front of embattled jungle,0,ext,day
+00:50:01:20,Vietnam,embattled jungle,glade at river,+,ext,day
+00:50:13:03,Vietnam,embattled jungle,glade at river, ,ext,day
+00:50:27:21,Vietnam,embattled jungle,glade at river,0,ext,day
+00:50:41:11,Vietnam,embattled jungle,glade at river,0,ext,day
+00:50:59:20,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+00:51:13:18,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+00:51:33:23,Vietnam,hospital dormitory,hospital dormitory,-,int,day
+00:52:05:16,Vietnam,hospital dormitory,hospital dormitory,0,int,day
+00:52:20:17,Vietnam,hospital dormitory,hospital dormitory,0,int,day
+00:52:35:23,Vietnam,hospital dormitory,hospital dormitory,0,int,day
+00:52:44:15,Vietnam,hospital dormitory,hospital dormitory,0,int,day
+00:52:51:06,Vietnam,hospital lounge,hospital lounge,++,int,day
+00:53:45:14,Vietnam,hospital lounge,hospital lounge,++,int,day
+00:53:51:12,Vietnam,hospital lounge,hospital lounge,0,int,day
+00:53:54:24,Vietnam,hospital lounge,hospital lounge,++,int,day
+00:54:11:20,Vietnam,hospital lounge,hospital lounge,++,int ,day
+00:54:27:19,Vietnam,hospital dormitory,hospital dormitory,++,int,day
+00:54:36:13,Vietnam,hospital dormitory,hospital dormitory,0,int,day
+00:54:54:00,Washington D.C.,White House,front of White House (broadcast),++,ext,day
+00:54:57:14,Greenbow Alabama,main street,in the barbershop,0,int,day
+00:55:02:10,Greenbow Alabama,main street,in the barbershop,0,int,day
+00:55:05:19,Washington D.C.,White House,room in White House (broadcast),0,int,day
+00:55:07:18,Washington D.C.,White House,room in White House (broadcast),0,int,day
+00:55:09:10,Washington D.C.,White House,room in White House (broadcast),0,int,day
+00:55:14:21,Washington D.C.,White House,room in White House (broadcast),0,int,day
+00:55:16:19,Washington D.C.,White House,room in White House (broadcast),0,int,day
+00:55:23:14,Greenbow Alabama,main street,in the barbershop,0,int,day
+00:55:27:08,Greenbow Alabama,main street,in the barbershop,0,int,day
+00:55:28:17,Washington D.C.,White House,room in White House (broadcast),0,int,day
+00:55:29:15,Washington D.C.,White House,room in White House (broadcast),0,int,day
+00:55:30:15,Washington D.C.,White House,room in White House (broadcast),0,int,day
+00:55:34:16,Washington D.C.,Lincoln Memorial,bus stop near Lincoln Memorial,++,ext,day
+00:55:48:03,Washington D.C.,Lincoln Memorial,bus stop near Lincoln Memorial,0,ext,day
+00:55:58:13,Washington D.C.,Lincoln Memorial,bus stop near Lincoln Memorial,0,ext,day
+00:56:00:06,Washington D.C.,Lincoln Memorial,bus stop near Lincoln Memorial,0,ext,day
+00:56:09:08,Washington D.C.,Lincoln Memorial,behind the stage,0,ext,day
+00:56:37:17,Washington D.C.,Lincoln Memorial,behind the stage,0,ext,day
+00:56:43:07,Washington D.C.,Lincoln Memorial,behind the stage,0,ext,day
+00:56:50:14,Washington D.C.,Lincoln Memorial,behind the stage,0,ext,day
+00:56:53:15,Washington D.C.,Lincoln Memorial,behind the stage,0,ext,day
+00:56:56:15,Washington D.C.,Lincoln Memorial,behind the stage,0,ext,day
+00:56:58:00,Washington D.C.,Lincoln Memorial,behind the stage,0,ext,day
+00:57:18:10,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:57:23:02,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:57:25:11,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:57:29:05,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:57:34:24,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:57:38:15,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:57:57:22,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:58:07:20,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:58:10:07,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:58:20:19,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:58:24:05,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:58:27:10,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:58:29:07,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:58:31:21,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:58:35:24,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:58:39:21,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:58:45:23,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:58:55:21,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:59:03:01,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:59:04:05,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:59:06:04,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:59:08:01,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:59:09:17,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:59:12:02,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:59:14:06,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:59:16:04,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:59:18:02,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:59:19:06,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:59:23:22,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:59:27:14,Washington D.C.,Lincoln Memorial,between Lincoln Memorial and Reflecting Pool,0,ext,day
+00:59:38:10,Washington D.C.,'protester''s camp','protester''s camp',++,ext,night
+00:59:47:02,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',++,int,night
+00:59:53:13,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:00:39:11,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:00:43:04,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:00:45:05,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:00:45:22,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:00:46:24,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:00:52:15,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:00:53:20,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:00:54:07,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:00:54:23,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:00:55:15,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:00:56:04,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:00:57:17,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:00:58:22,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:01:01:08,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:01:02:15,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:01:03:20,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:01:20:08,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:01:22:24,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:01:32:21,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:01:34:11,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:01:38:00,Washington D.C.,'Black Panther''s HQ','Black Panther''s HQ',0,int,night
+01:01:40:15,Washington D.C.,White House,front of White House,+,ext,night
+01:02:32:02,United States,highway flashback,highway flashback,-,ext,day
+01:02:34:09,United States,highway flashback,highway flashback,0,ext,day
+01:02:36:18,United States,hippie camp,turn on tune in drop out,++,ext,night
+01:02:43:24,Hollywood,Walk of Fame,in front of cinema,++,ext,day
+01:02:52:17,Hollywood,Walk of Fame,in front of cinema,0,ext,day
+01:02:54:23,Hollywood,Walk of Fame,in front of cinema,0,ext,day
+01:02:56:09,Hollywood,Walk of Fame,in front of cinema,0,ext,day
+01:02:57:18,Washington D.C.,Tidal Basin with Jefferson Memorial,Tidal Basin with Jefferson Memorial,++,ext,day
+01:03:05:11,Washington D.C.,bus stop,bus stop,+,ext,day
+01:03:26:01,Washington D.C.,bus stop,bus stop,0,ext,day
+01:03:37:22,Washington D.C.,bus stop,bus stop,0,ext,day
+01:03:52:10,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:04:20,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:10:11,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:17:00,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:20:01,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:23:14,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:28:10,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:31:23,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:40:01,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:41:11,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:42:20,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:44:02,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:46:01,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:47:10,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:48:13,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:53:23,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:54:20,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:56:07,Washington D.C.,bus stop,bus stop,0,ext,day
+01:04:57:21,Washington D.C.,bus stop,bus stop,0,ext,day
+01:05:00:06,Washington D.C.,bus stop,bus stop,0,ext,day
+01:05:05:02,Washington D.C.,bus stop,bus stop,0,ext,day
+01:05:11:20,United States,'veteran''s hospital','veteran''s hospital lounge',++,int,day
+01:05:38:10,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+01:05:41:11,China,Pong Pong Tournament,inside stadium,-,int,day
+01:05:46:24,China,Pong Pong Tournament,inside stadium,0,int,day
+01:05:50:04,China,Pong Pong Tournament,inside stadium,0,int,day
+01:05:52:12,China,Pong Pong Tournament,inside stadium,0,int,day
+01:05:58:01,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+01:05:59:24,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+01:06:02:22,New York,TV studio,TV studio (broadcast),-,int,day
+01:06:06:07,New York,TV studio,TV studio (broadcast),0,int,day
+01:06:14:16,New York,TV studio,TV studio (broadcast),0,int,day
+01:06:26:08,New York,TV studio,TV studio (broadcast),0,int,day
+01:06:32:14,New York,TV studio,TV studio (broadcast),0,int,day
+01:06:34:19,New York,TV studio,TV studio (broadcast),0,int,day
+01:06:40:22,New York,TV studio,TV studio (broadcast),0,int,day
+01:06:44:10,New York,TV studio,TV studio (broadcast),0,int,day
+01:07:00:15,New York,outside the TV studio,outside the TV studio,+,ext,day
+01:07:11:04,New York,outside the TV studio,outside the TV studio,0,ext,day
+01:07:13:19,New York,outside the TV studio,outside the TV studio,0,ext,day
+01:07:18:17,New York,outside the TV studio,outside the TV studio,0,ext,day
+01:07:23:10,New York,outside the TV studio,outside the TV studio,0,ext,day
+01:07:34:15,New York,outside the TV studio,outside the TV studio,0,ext,day
+01:07:36:22,New York,outside the TV studio,outside the TV studio,0,ext,day
+01:07:43:07,New York,outside the TV studio,outside the TV studio,0,ext,day
+01:07:45:18,New York,outside the TV studio,outside the TV studio,0,ext,day
+01:07:49:02,New York,outside the TV studio,outside the TV studio,0,ext,day
+01:07:50:11,New York,outside the TV studio,outside the TV studio,0,ext,day
+01:07:51:13,New York,outside the TV studio,outside the TV studio,0,ext,day
+01:07:52:22,New York,outside the TV studio,outside the TV studio,0,ext,day
+01:07:55:03,New York,outside the TV studio,outside the TV studio,0,ext,day
+01:07:56:00,New York,outside the TV studio,outside the TV studio,0,ext,day
+01:07:58:11,New York,red light district,red light district,++,ext,night
+01:08:09:02,New York,red light district,red light district,0,ext,night
+01:08:32:00,New York,'Dan''s apartment','Dan''s apartment',+,int,night
+01:08:37:08,New York,'Dan''s apartment','Dan''s apartment',0,int,night
+01:08:44:01,New York,'Dan''s apartment','Dan''s apartment',0,int,night
+01:08:51:19,New York,'Dan''s apartment','Dan''s apartment',0,int,night
+01:08:54:24,New York,'Dan''s apartment','Dan''s apartment',0,int,night
+01:08:58:13,New York,'Dan''s apartment','Dan''s apartment',0,int,night
+01:09:04:03,New York,'Dan''s apartment','Dan''s apartment',0,int,night
+01:09:19:23,New York,'Dan''s apartment','Dan''s apartment',0,int,night
+01:09:23:07,New York,'Dan''s apartment','Dan''s apartment',0,int,night
+01:09:50:00,New York,'Dan''s apartment','Dan''s apartment',0,int,night
+01:09:55:06,New York,'Dan''s apartment','Dan''s apartment',0,int,night
+01:10:00:17,New York,'Dan''s apartment','Dan''s apartment',0,int,night
+01:10:07:24,New York,'Dan''s apartment','Dan''s apartment',0,int,night
+01:10:10:10,New York,'Dan''s apartment','Dan''s apartment',0,int,night
+01:10:12:02,New York,'Dan''s apartment','Dan''s apartment',0,int,night
+01:10:13:04,New York,bar,bar,++,int,night
+01:11:50:02,California,apartment with mirrored wall,apartment with mirrored wall,0,int,night
+01:12:22:22,New York,bar,bar,0,int,night
+01:12:54:05,Washington D.C.,White House,front of White House (broadcast),++,ext,day
+01:12:58:21,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+01:13:11:03,Washington D.C.,White House,unknown / other (broadcast),-,int,day
+01:13:28:13,Washington D.C.,Watergate Hotel,room in Watergate Hotel,++,int,night
+01:13:51:10,United States,gymnasium,gymnasium,++,int,day
+01:14:12:18,United States,gymnasium,gymnasium,0,int,day
+01:14:47:23,Gump property,Gump House,front of Gump House,++,ext,day
+01:15:04:01,Gump property,Gump House,front of Gump House,0,ext,day
+01:15:07:15,Gump property,Gump House,corridor downstairs,0,int,day
+01:15:44:08,Bayou La Batre,'Bubba''s Home','Bubba''s Home',++,ext,day
+01:15:54:24,Bayou La Batre,'Bubba''s Home','Bubba''s Home',+,ext,day
+01:15:59:08,Bayou La Batre,'Bubba''s Home','Bubba''s Home',0,ext,day
+01:16:01:14,Bayou La Batre,'Bubba''s Home','Bubba''s Home',0,ext,day
+01:16:03:10,Bayou La Batre,'Bubba''s Grave','Bubba''s Grave',+,ext,day
+01:16:06:22,Bayou La Batre,'Bubba''s Grave','Bubba''s Grave',0,ext,day
+01:16:11:17,Bayou La Batre,'Bubba''s Grave','Bubba''s Grave',0,ext,day
+01:16:28:15,Bayou La Batre,harbor,gangplank to ships,+,ext,day
+01:16:37:18,Bayou La Batre,harbor,stall,+,ext,day
+01:16:44:17,Bayou La Batre,'Bubba''s Grave','Bubba''s Grave',+,ext,day
+01:16:54:12,Bayou La Batre,'Bubba''s Grave','Bubba''s Grave',0,ext,day
+01:17:09:01,Bayou La Batre,on the boat,on the boat,++,ext,day
+01:17:24:24,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:17:38:22,Bayou La Batre,harbor,landing stages,++,ext,day
+01:18:01:05,Bayou La Batre,harbor,landing stages,0,ext,day
+01:18:09:01,California,Disco,Disco,+,int,night
+01:18:28:09,Bayou La Batre,on the boat,on the boat,+,ext,day
+01:18:33:20,California,apartment with balcony,bedroom,+,int,night
+01:18:57:05,California,apartment with balcony,bedroom,0,int,night
+01:19:02:07,California,apartment with balcony,balcony,0,ext,night
+01:19:09:10,California,apartment with balcony,balcony,0,ext,night
+01:19:21:24,California,apartment with balcony,balcony,0,ext,night
+01:19:24:11,California,apartment with balcony,balcony,0,ext,night
+01:19:28:00,California,apartment with balcony,balcony,0,ext,night
+01:19:30:24,California,apartment with balcony,balcony,0,ext,night
+01:19:32:18,California,apartment with balcony,balcony,0,ext,night
+01:19:34:20,California,apartment with balcony,balcony,0,ext,night
+01:19:36:04,California,apartment with balcony,balcony,0,ext,night
+01:19:42:13,California,apartment with balcony,balcony,0,ext,night
+01:20:00:15,Bayou La Batre,on the boat,on the boat,0,ext,night
+01:20:18:19,Bayou La Batre,harbor,jetty,++,ext,day
+01:20:30:09,Bayou La Batre,harbor,jetty,0,ext,day
+01:20:32:20,Bayou La Batre,harbor,jetty,0,ext,day
+01:20:37:18,Bayou La Batre,harbor,jetty,0,ext,day
+01:20:39:11,Bayou La Batre,harbor,jetty,0,ext,day
+01:20:40:24,Bayou La Batre,harbor,jetty,0,ext,day
+01:20:44:00,Bayou La Batre,harbor,jetty,0,ext,day
+01:20:50:00,Bayou La Batre,harbor,jetty,0,ext,day
+01:21:11:00,Bayou La Batre,harbor,jetty,0,ext,day
+01:21:13:08,Bayou La Batre,harbor,jetty,0,ext,day
+01:21:15:10,Bayou La Batre,harbor,jetty,0,ext,day
+01:21:24:02,Bayou La Batre,harbor,jetty,0,ext,day
+01:21:29:14,Bayou La Batre,harbor,jetty,0,ext,day
+01:21:37:11,Bayou La Batre,harbor,jetty,0,ext,day
+01:21:40:11,Bayou La Batre,harbor,jetty,0,ext,day
+01:21:42:14,Bayou La Batre,harbor,jetty,0,ext,day
+01:21:56:24,Bayou La Batre,on the boat,on the boat,++,ext,day
+01:22:02:17,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:22:15:10,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:22:23:12,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:22:31:04,Bayou La Batre,on the boat,on the boat,+,ext,day
+01:22:53:14,Bayou La Batre,Foursquare Church,Foursquare Church,++,int,day
+01:23:02:04,Bayou La Batre,Foursquare Church,Foursquare Church,0,int,day
+01:23:09:04,Bayou La Batre,on the boat,on the boat,++,ext,day
+01:23:34:11,Bayou La Batre,on the boat,on the boat,++,ext,day
+01:23:51:18,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:24:03:24,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:24:07:20,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:24:13:06,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:24:18:19,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:24:24:14,Gump property,Gump House,living room,++,int,day
+01:24:26:15,Bayou La Batre,harbor,yet another jetty,0,ext,day
+01:24:34:04,Gump property,Gump House,living room,0,int,day
+01:24:44:15,Gump property,Gump House,living room,0,int,day
+01:24:47:01,Gump property,Gump House,living room,0,int,day
+01:24:50:02,Bayou La Batre,on the boat,on the boat,++,ext,day
+01:24:51:09,Bayou La Batre,on the boat,on the boat,++,ext,day
+01:24:52:20,Bayou La Batre,on the boat,on the boat,++,ext,day
+01:24:59:17,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+01:25:18:16,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+01:25:23:06,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+01:25:41:08,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+01:25:44:21,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+01:26:01:24,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+01:26:03:22,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+01:26:06:19,Bayou La Batre,on the boat,on the boat,-,ext,day
+01:26:08:12,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:26:11:02,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:26:17:10,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:26:18:19,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:26:21:10,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:26:22:17,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:26:33:02,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:26:37:24,Bayou La Batre,on the boat,on the boat,0,ext,day
+01:26:47:21,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+01:27:17:19,Greenbow Alabama,football field,on the football field,-,ext,day
+01:27:22:09,Gump property,access-road,at the mail boxes,++,ext,day
+01:27:33:01,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+01:27:37:08,Bayou La Batre,Foursquare Church,Foursquare Church,-,int,day
+01:27:43:04,Bayou La Batre,Foursquare Church,in front of Foursquare Church,++,ext,day
+01:27:52:13,Bayou La Batre,Gump Medical Center,Gump Medical Center,++,ext,day
+01:27:58:20,Bayou La Batre,'Bubba''s Home','Bubba''s Home',++,ext,day
+01:28:10:10,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+01:28:12:02,Bayou La Batre,'Bubba''s mother''s dining room','Bubba''s mother''s dining room',-,int,day
+01:28:18:12,Greenbow Alabama,football field,on the football field,++,ext,day
+01:28:27:05,Gump property,Gump House,front of Gump House,++,ext,night
+01:28:38:01,Gump property,Gump House,front of Gump House,0,ext,night
+01:28:47:00,Gump property,Gump House,front of Gump House,0,ext,night
+01:29:09:03,Gump property,Gump House,garden,+,ext,day
+01:29:28:01,Gump property,Gump House,front of Gump House,0,ext,day
+01:29:41:19,Gump property,Gump House,garden,0,ext,day
+01:29:47:12,Gump property,Gump House,garden,0,ext,day
+01:29:50:06,Gump property,Gump House,garden,0,ext,day
+01:29:59:16,Gump property,Gump House,garden,0,ext,day
+01:30:01:22,Gump property,Gump House,garden,0,ext,day
+01:30:04:05,Gump property,Gump House,garden,0,ext,day
+01:30:09:08,Gump property,Gump House,garden,0,ext,day
+01:30:11:09,Gump property,Gump House,garden,0,ext,day
+01:30:14:09,Gump property,Gump House,garden,0,ext,day
+01:30:17:12,Gump property,Gump House,garden,0,ext,day
+01:30:22:21,Gump property,Gump House,garden,0,ext,day
+01:30:29:23,Gump property,Gump House,'Jenny''s bedroom',++,int,day
+01:30:45:21,Greenbow Alabama,random meadow,random meadow,++,ext,day
+01:31:03:18,Greenbow Alabama,tree on a field,tree on a field,++,ext,day
+01:31:14:00,Gump property,Gump House,unknown / other,++,int,day
+01:31:21:10,Gump property,Gump House,front of Gump House,++,ext,day
+01:31:28:17,Gump property,Gump House,front of Gump House,++,ext,day
+01:31:48:01,Greenbow Alabama,riverside,riverside,++,ext,day
+01:32:01:00,Gump property,Gump House,living room,++,int,night
+01:32:28:14,Gump property,Gump House,corridor downstairs,0,int,night
+01:32:40:24,Gump property,Gump House,corridor downstairs,0,int,night
+01:32:45:08,Gump property,Gump House,corridor downstairs,0,int,night
+01:32:49:09,Gump property,Gump House,corridor downstairs,0,int,night
+01:32:53:24,Gump property,Gump House,corridor downstairs,0,int,night
+01:32:59:06,Gump property,Gump House,corridor downstairs,0,int,night
+01:33:01:13,Gump property,Gump House,corridor downstairs,0,int,night
+01:33:12:17,Gump property,Gump House,corridor downstairs,0,int,night
+01:33:14:16,Gump property,Gump House,corridor downstairs,0,int,night
+01:33:18:02,Gump property,Gump House,corridor downstairs,0,int,night
+01:33:21:18,Gump property,Gump House,corridor downstairs,0,int,night
+01:33:25:01,Gump property,Gump House,front of Gump House,+,ext,night
+01:33:29:01,Gump property,Gump House,'Forrest''s bedroom',+,int,night
+01:33:50:00,Gump property,Gump House,'Forrest''s bedroom',0,int,night
+01:34:11:12,Gump property,Gump House,'Forrest''s bedroom',0,int,night
+01:34:22:16,Gump property,Gump House,front of Gump House,++,ext,day
+01:34:39:16,Gump property,Gump House,front of Gump House,0,ext,day
+01:34:49:10,Gump property,Gump House,'Forrest''s bedroom',0,int,day
+01:35:06:14,Gump property,Gump House,unknown / other,++,int,day
+01:35:20:01,Gump property,Gump House,'Jenny''s bedroom',++,int,day
+01:35:28:17,Gump property,Gump House,living room,++,int,day
+01:35:37:00,Gump property,Gump House,front of Gump House,++,ext,day
+01:35:56:10,Gump property,Gump House,front of Gump House,0,ext,day
+01:36:12:18,Gump property,access-road,alley to Gump House,0,ext,day
+01:36:19:07,Gump property,access-road,at the mail boxes,+,ext,day
+01:36:25:23,Greenbow Alabama,main street,in the barbershop,+,int,day
+01:36:30:13,Greenbow Alabama,road with bridge,road with bridge,+,ext,day
+01:36:38:21,Mississippi,road with Mississippi sign,road with Mississippi sign,++,ext,day
+01:36:44:11,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+01:36:50:20,Santa Monica,yacht harbor,yacht harbor,-,ext,day
+01:36:55:00,Santa Monica,yacht harbor,'yacht harbor''s jetty',+,ext,day
+01:37:04:18,Atlantic Ocean,beacon,beacon,++,ext,day
+01:37:16:06,Atlantic Ocean,beacon,beacon,0,ext,day
+01:37:21:15,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+01:37:27:06,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+01:37:30:13,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+01:37:33:14,United States,road at a river,road at a river,-,ext,day
+01:37:42:24,United States,road at between wheat fields,road at between wheat fields,++,ext,day
+01:37:49:22,Rocky Mountains,stone bridge,stone bridge,++,ext,day
+01:37:57:09,United States,road between fences,road between fences,++,ext,day
+01:38:04:07,United States,autumn forrest,autumn forrest with houses,++,ext,day
+01:38:14:08,United States,autumn forrest,road trough autumn forrest,+,ext,day
+01:38:20:09,Greenbow Alabama,main street,in the barbershop,+,int,day
+01:38:26:16,Greenbow Alabama,main street,in the barbershop,+,int,day
+01:38:28:22,Savannah,restaurant,restaurant,+,int,day
+01:38:42:08,Mississippi,bridge at mississippi river,bridge at mississippi river,0,ext,day
+01:38:58:24,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+01:39:00:15,United States,street with houses,street with houses,-,ext,day
+01:39:05:02,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+01:39:10:11,United States,street with houses,street with houses,-,ext,day
+01:39:22:12,United States,street in mountains,street in mountains,++,ext,day
+01:39:27:21,United States,street in desert,street in desert,++,ext,day
+01:39:33:09,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+01:39:40:04,United States,street with sidewalk,street with sidewalk,-,ext,day
+01:40:12:05,United States,street with crashing cars,street with crashing cars,++,ext,day
+01:40:15:10,United States,truck stop,truck stop,-,ext,day
+01:40:36:19,United States,truck stop,truck stop,0,ext,day
+01:40:41:18,United States,truck stop,truck stop,0,ext,day
+01:40:45:16,Monument Valley,road through Monument Valley,road through Monument Valley,++,ext,day
+01:41:18:06,Monument Valley,road through Monument Valley,road through Monument Valley,0,ext,day
+01:41:28:00,Monument Valley,road through Monument Valley,road through Monument Valley,0,ext,day
+01:41:46:19,Monument Valley,road through Monument Valley,road through Monument Valley,0,ext,day
+01:42:14:17,Washington D.C.,Hilton Hotel,Ronald Reagon (broadcast),++,ext,day
+01:42:21:03,Gump property,Gump House,living room,0,int,day
+01:42:33:17,Savannah,bench at bus stop,bench at bus stop,++,ext,day
+01:43:10:00,Savannah,bench at bus stop,bench at bus stop,0,ext,day
+01:43:20:03,Savannah,'Jenny''s apartment','Jenny''s apartment',+,int,day
+01:43:22:08,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:43:25:11,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:43:27:04,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:43:48:12,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:43:52:06,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:43:58:01,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:44:05:13,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:44:44:14,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:44:47:24,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:44:58:24,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:45:02:02,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:45:03:23,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:45:11:09,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:45:39:00,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:45:43:05,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:45:55:05,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:45:59:08,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:46:31:02,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:46:45:21,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:46:51:23,Savannah,'Jenny''s apartment','Jenny''s apartment',0,int,day
+01:46:58:01,Savannah,park with playground,park with playground,+,ext,day
+01:47:21:17,Savannah,park with playground,park with playground,0,ext,day
+01:47:42:08,Savannah,park with playground,park with playground,0,ext,day
+01:47:46:12,Savannah,park with playground,park with playground,0,ext,day
+01:47:54:01,Gump property,Gump House,front of Gump House,++,ext,day
+01:48:32:00,Gump property,Gump House,front of Gump House,0,ext,day
+01:48:35:18,Gump property,Gump House,front of Gump House,0,ext,day
+01:48:38:00,Gump property,Gump House,front of Gump House,0,ext,day
+01:48:41:04,Gump property,Gump House,front of Gump House,0,ext,day
+01:48:45:14,Gump property,Gump House,front of Gump House,0,ext,day
+01:48:53:19,Gump property,Gump House,front of Gump House,0,ext,day
+01:48:56:08,Gump property,Gump House,front of Gump House,0,ext,day
+01:49:03:19,Gump property,Gump House,front of Gump House,0,ext,day
+01:49:11:07,Gump property,Gump House,front of Gump House,0,ext,day
+01:49:14:10,Gump property,Gump House,front of Gump House,0,ext,day
+01:49:20:13,Gump property,Gump House,front of Gump House,0,ext,day
+01:49:25:08,Gump property,Gump House,front of Gump House,0,ext,day
+01:49:27:10,Gump property,Gump House,front of Gump House,0,ext,day
+01:49:35:16,Gump property,Gump House,front of Gump House,0,ext,day
+01:49:40:01,Gump property,Gump House,front of Gump House,0,ext,day
+01:49:42:02,Gump property,Gump House,front of Gump House,0,ext,day
+01:49:44:11,Gump property,Gump House,garden,+,ext,day
+01:49:59:10,Gump property,access-road,alley to Gump House,++,ext,day
+01:50:13:16,Gump property,Gump House,'Forrest''s mother''s bedroom',++,int,day
+01:50:22:10,Gump property,Gump House,'Forrest''s mother''s bedroom',0,int,day
+01:50:29:13,Gump property,Gump House,'Forrest''s mother''s bedroom',0,int,day
+01:50:32:10,Gump property,Gump House,'Forrest''s mother''s bedroom',0,int,day
+01:50:52:02,Gump property,Gump House,'Forrest''s mother''s bedroom',0,int,day
+01:50:58:19,Vietnam,yet another jungle,yet another jungle,-,ext,night
+01:51:10:10,Gump property,Gump House,'Forrest''s mother''s bedroom',++,int,day
+01:51:11:22,Gump property,Gump House,'Forrest''s mother''s bedroom',0,int,day
+01:51:16:07,Bayou La Batre,on the boat,on the boat,-,ext,day
+01:51:24:17,Rocky Mountains,street at a lake,street at a lake,++,ext,day
+01:51:32:24,Gump property,Gump House,'Forrest''s mother''s bedroom',++,int,day
+01:51:36:07,Monument Valley,road through Monument Valley,road through Monument Valley,-,ext,day
+01:51:49:00,Gump property,Gump House,'Forrest''s mother''s bedroom',++,int,day
+01:51:51:21,Gump property,Gump House,'Forrest''s mother''s bedroom',0,int,day
+01:51:55:20,Gump property,Gump House,'Forrest''s mother''s bedroom',0,int,day
+01:52:00:21,Gump property,Gump House,'Forrest''s mother''s bedroom',0,int,day
+01:52:04:07,Gump property,Gump House,'Forrest''s mother''s bedroom',0,int,day
+01:52:07:09,Gump property,Gump House,'Forrest''s mother''s bedroom',0,int,day
+01:52:09:14,Gump property,Gump House,'Forrest''s mother''s bedroom',0,int,day
+01:52:12:07,Gump property,Gump House,'Forrest''s mother''s bedroom',0,int,day
+01:52:19:05,Greenbow Alabama,tree on a field,'Jenny''s Grave',++,ext,day
+01:52:26:03,Greenbow Alabama,tree on a field,'Jenny''s Grave',0,ext,day
+01:52:34:17,Greenbow Alabama,'Jenny''s house','front of Jenny''s house',-,ext,day
+01:52:39:23,Greenbow Alabama,tree on a field,'Jenny''s Grave',++,ext,day
+01:52:45:22,Greenbow Alabama,tree on a field,'Jenny''s Grave',0,ext,day
+01:52:51:06,Greenbow Alabama,tree on a field,'Jenny''s Grave',0,ext,day
+01:52:58:06,Gump property,Gump House,'Forrest''s bedroom',-,int,night
+01:53:06:20,Greenbow Alabama,tree on a field,'Jenny''s Grave',++,ext,day
+01:53:20:14,Gump property,Gump House,front of Gump House,-,ext,night
+01:53:27:07,Greenbow Alabama,riverside,riverside,++,ext,day
+01:53:33:15,Greenbow Alabama,tree on a field,'Jenny''s Grave',++,ext,day
+01:53:59:02,Greenbow Alabama,tree on a field,'Jenny''s Grave',0,ext,day
+01:54:03:24,Greenbow Alabama,tree on a field,'Jenny''s Grave',0,ext,day
+01:54:15:12,Greenbow Alabama,tree on a field,'Jenny''s Grave',0,ext,day
+01:55:19:06,Greenbow Alabama,tree on a field,'Jenny''s Grave',0,ext,day
+01:55:44:21,Gump property,access-road,at the mail boxes,++,ext,day
+01:55:52:04,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:01:14,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:05:17,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:08:08,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:14:17,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:17:19,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:19:08,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:20:21,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:25:23,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:27:22,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:31:18,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:33:03,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:44:08,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:45:22,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:48:00,Gump property,access-road,at the mail boxes,0,ext,day
+01:56:53:00,Gump property,access-road,at the mail boxes,0,ext,day
+01:57:02:00,Gump property,access-road,at the mail boxes,0,ext,day
+01:58:02:05,MOVIES END,,,,,
