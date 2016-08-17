@@ -53,17 +53,22 @@ can we investigate with the movie dataset now that we have this annotation?
 How is this kind of research normally done (without movie datasets)? Link to
 cinematography. Cite key papers.}
 
+
+Needs to cite the full studyforrest data paper set: \cite{HBI+14,HDH+2015,SKG+16,HAK+16}
+And previous annotations: \cite{LRS+2015}
+
+
 \section*{Materials and methods}
 % Detailed account of the protocol used to generate the dataset
 
 \subsection*{Stimulus}
 
 The annotated stimulus was a slightly shortened ($\approx$\unit[2]{h}) version
-of the movie Forrest~Gump (R.~Zemeckis, Paramount Pictures, 1994) with
-dubbed German soundtrack, and is identical to the audio-visual movie annotated
-in \cite{LRS+2015} with respect to portrayed emotions. Further details on this
-particular movie cut, and how to reproduce it from commercially available
-sources are available in \cite{HAK+16}.
+of the movie Forrest~Gump (R.~Zemeckis, Paramount Pictures, 1994) with dubbed
+German soundtrack, and is identical to the audio-visual movie annotated in
+\cite{LRS+2015}. Further details on this particular movie cut, and how to
+reproduce it from commercially available sources are available in
+\cite{HAK+16}.
 
 
 \subsection*{Annotation procedure}
@@ -99,7 +104,7 @@ shot's start time, 2) the shot's major location, 3) it's setting,
 6) it's temporal order in respect to the previous shot and 7) it's
 time of day. 
 
-\subsubsection*{Shot's start time}
+\subsubsection*{Shot start time}
 
 A shot's start time is defnied as the first frame of a shot after
 a cut. The timings are written in the format hour:minute:second:frame.
@@ -114,7 +119,7 @@ min=\unit[\ShotLengthMin]{s}, max=\unit[\ShotLengthMax]{s},
 median=\unit[\ShotLengthMedian]{s}, SD=\unit[\ShotLengthSD]{s}).
 
 
-\subsubsection*{Annotation of locations}
+\subsubsection*{Location}
 
 The location shown at the beginning of every shot was written into
 three different columns, reflecting increasing granularity: From the
@@ -148,16 +153,16 @@ and geometrical features {[}Beispiele{]}. A locale is equal to it's
 setting, when a setting depics only one locale. 
 
 
-\subsubsection*{Interior exterior distinction }
+\subsubsection*{Interior or exterior setting}
 
 Regarding the interior exterior distinction, a location inside a building
 or inside a car was labeled with ``int'', while locations outdoors
 were labeled with ``ext''. 
 
 
-\subsubsection*{Temporal order}
+\subsubsection*{Temporal progression}
 
-Firs, every flashback, no matter how short the skipped time is, was
+First, every flashback, no matter how short the skipped time is, was
 coded as >>-<<. Second, a >>0<< was chosen, when the cut is supposed
 to show no noticable break in the ongoing stream of time. In other
 words, in those cases the action is supposed to be cutted in a continouos
@@ -178,7 +183,26 @@ and late sun settings) are also subsumed as ``day''. If sun light
 is entirely missing, the time of day is coded as ``night''. 
 
 
-\subsubsection*{from raw annotation to experimental conditions}
+
+\subsection*{Dataset content}
+
+\todo[inline]{What exactly is released, in what format?}
+
+\paragraph{Source code}
+
+The full source code for all descriptive statistics and figures included in
+this paper is available in \texttt{descriptive\_stats.py} (Python script).
+
+
+\section*{Dataset validation}
+% Information about any validation carried out and/or any limitations of the
+% datasets, including any allowances made for controlling bias or unwanted
+% sources of variability.
+
+\todo[inline]{Place any information and illustrative figures here that help
+people figure out whether these annotation are useful/trustworthy for them}
+
+\subsection*{from raw annotation to experimental conditions}
 
 \todo[inline]{this section could be stripped of all FSL/MRI references
   and converted into a ``validation'' that lists possible conditions
@@ -236,24 +260,6 @@ the chosen factor of ten seconds; in 202 different shots; Mdn = 16.96
 s; SD = 16.090s)\todo{stats in this paragraph need to be computed from
 annotation}
 
-
-\subsection*{Dataset content}
-
-\todo[inline]{What exactly is released, in what format?}
-
-\paragraph{Source code}
-
-The full source code for all descriptive statistics and figures included in
-this paper is available in \texttt{descriptive\_stats.py} (Python script).
-
-
-\section*{Dataset validation}
-% Information about any validation carried out and/or any limitations of the
-% datasets, including any allowances made for controlling bias or unwanted
-% sources of variability.
-
-\todo[inline]{Place any information and illustrative figures here that help
-people figure out whether these annotation are useful/trustworthy for them}
 
 \section*{Data availability}
 
