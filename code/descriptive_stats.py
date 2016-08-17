@@ -51,10 +51,15 @@ def _ft(key, value, fmt='s'):
     return tex.format(key=key, value=value)
 
 
-def print_descriptive_stats_as_tex(annot):
-    print(_ft('NShots', len(annot), 'd'))
+def print_descriptive_stats_as_tex(data):
+    print(_ft('NShots', len(data), 'd'))
+    shot_durations = np.diff(data['time'])
+    print(_ft('ShotLengthMedian', np.median(shot_durations), '.2f'))
+    print(_ft('ShotLengthMin', shot_durations.min(), '.2f'))
+    print(_ft('ShotLengthMax', shot_durations.max(), '.2f'))
+    print(_ft('ShotLengthSD', shot_durations.std(), '.2f'))
 
 
 if __name__ == '__main__':
-    data = load_annotations()
-    print_descriptive_stats_as_tex(data)
+    shots = load_annotations()
+    print_descriptive_stats_as_tex(shots)
