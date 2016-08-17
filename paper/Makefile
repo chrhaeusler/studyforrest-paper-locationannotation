@@ -3,9 +3,6 @@ SRC=p.tex
 all: figures p.pdf
 p.pdf: $(SRC) p.bbl
 
-p.odt: p.pdf
-	/usr/share/tex4ht/oolatex p.tex '' '' '' '-interaction=nonstopmode'
-
 figures:
 	$(MAKE) -C figures
 
@@ -13,6 +10,11 @@ clean::
 	rm -f revision.log *-stamp
 	$(MAKE) -C figures clean
 	-rm -f *.4ct *.4tc *.idv *.lg *.tmp p.odt *.xref
+
+wc: p.pdf
+	pdftops p.pdf
+	ps2ascii p.ps > p.txt
+	wc -w p.txt
 
 
 #
