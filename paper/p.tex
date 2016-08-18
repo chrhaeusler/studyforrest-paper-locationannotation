@@ -134,20 +134,20 @@ actual annotation into a text file with comma-separated values (structure.csv).
 The annotation file comprises seven columns: One column for 1) the
 shot's start time, 2) the shot's major location, 3) it's setting,
 4) it's locale, 5) an interior exterior distinction of the location,
-6) it's temporal order in respect to the previous shot and 7) it's
+6) it's temporal progression in respect to the previous shot and 7) it's
 time of day. 
 
 \subsubsection*{Shot start time}
 
-A shot's start time is defnied as the first frame of a shot after
+A shot's start time is defined as the first frame of a shot after
 a cut. The timings are written in the format hour:minute:second:frame.
 The values for the frame range from 0 to 24, reflecting the movie's
 frame rate of 25 frames per second. 
 
+% 870 shots if last "shot" which only contains black frames counts as a shot
 To check for human errors and validate the timings, the manual annotation was
 compared to an annotation created by an in-house developed, automated cut
-detection algorithm {[}wer hat's gemacht; ggf. wo Unterschiede waren{]}. In
-summary the shortened version of the movie comprises \NShots\ shots (duration:
+detection algorithm. In summary the shortened version of the movie comprises \NShots\ shots (duration:
 min=\unit[\ShotLengthMin]{s}, max=\unit[\ShotLengthMax]{s},
 median=\unit[\ShotLengthMedian]{s}, SD=\unit[\ShotLengthSD]{s}).
 
@@ -171,8 +171,8 @@ Secondly, the setting represents a subcategory for places which are
 in the same major location, but are not in direct sight. For example
 Forrest Gump's elementary school and the football field, which are
 both in the same major location of Greenbow, Alabama. A switch from
-one setting to another setting is mostly, but not always, congruent
-with a switch to another scene in a cinematographic sense.
+one setting into another setting is mostly, but not always, congruent
+with a switch into another scene in a cinematographic sense.
 
 Lastly, a setting was further subdivided into distinguishable locales.
 Indoors, a locale is congruent with a particular room bounded by its
@@ -182,8 +182,10 @@ house (setting) on the Gumps' property (major location). Outdoors,
 different locales were assumed if two places could be considered as
 different rooms due to their distance to each other, due to logical
 borders or due to no or only a small number of overlapping objects
-and geometrical features {[}Beispiele{]}. A locale is equal to it's
-setting, when a setting depics only one locale. 
+and geometrical features. For example the glade at the river and the 
+finding place of Bubba are two different locales in the embattled jungle 
+(setting) in Vietnam (major location). A locale is equal to it's
+setting, when a setting depicts only one locale. 
 
 
 \subsubsection*{Interior or exterior setting}
@@ -195,10 +197,10 @@ were labeled with ``ext''.
 
 \subsubsection*{Temporal progression}
 
-First, every flashback, no matter how short the skipped time is, was
+Firstly, every flashback, no matter how short the skipped time is, was
 coded as >>-<<. Second, a >>0<< was chosen, when the cut is supposed
-to show no noticable break in the ongoing stream of time. In other
-words, in those cases the action is supposed to be cutted in a continouos
+to show no noticeable break in the ongoing stream of time. In other
+words, in those cases the action is supposed to be edited in a continuous
 fashion, so the action is only shown from a different viewpoint after
 the cut. Third, a ``+'' represents noticeable breaks in the ongoing
 stream of time, ranging from mostly several seconds to about one to
@@ -231,6 +233,10 @@ this paper is available in \texttt{descriptive\_stats.py} (Python script).
 % Information about any validation carried out and/or any limitations of the
 % datasets, including any allowances made for controlling bias or unwanted
 % sources of variability.
+Locations only name places shown at the beginning of the shot, meaning 
+movements of the camera position during the shot are not taken into account.
+2-3 dissolves are counted as cuts
+Subdividing settings into locales outside is kinda subjective 
 
 \todo[inline]{Place any information and illustrative figures here that help
 people figure out whether these annotation are useful/trustworthy for them}
@@ -244,53 +250,38 @@ people figure out whether these annotation are useful/trustworthy for them}
   are relatively arbitrary decision that are only meaningful in a particular
 context, not for the general annotation data}
 
-The data in the raw annotation were converted to event onset files
-for later use in FSL (ev3 format) by means of two python scripts. 
-
 The first script (01\_structure\_annot\_to\_all\_timings.py) took
-the annotation as input and created a new csv-file (structure\_all\_timings\_10sec.csv)
+the annotation as input and created a new csv-file (structure\_5\_conditions\_10sec.csv)
 with columns ``time\_stamp'', ``seconds'' and ``condition''.
 The time stamp was a copy of the time stamp given in the raw annotation.
 It served for later visual inspection of conditions' correctness by
 easily copy and pasting it into Shotcut. 
 
-The column ``seconds'' coded the timing of an event beginning from
-the movie's start in the format seconds.milliseconds. The column ``condition''
-coded an event's respective condition (``no\_cut'', ``perspective\_change'',
-``locale\_change'', ``setting\_change''). The rules to produce
-the condition from the annotation were as follows: When the major
-location, the setting and the room in one line of the annotation were
-the same as in the previous line, the script returned ``perspective\_change''.
-When only the locale was different to the previous line line, the
-script returned ``locale\_change''. When the setting or the major
-location was / were different, the script returned ``setting\_change''. 
+The column ``seconds'' coded the timing of an event's beginning
+from the movie's start in the format seconds.milliseconds. The column
+``condition'' coded an event's respective condition. The 5 conditions
+are named as follows: 1) ``setting\_new'', 2) ``setting\_old'',
+3) ``locale\_change'', 4) ``perspective\_new'' and 5) ``perspective\_old''. 
 
-Additionally, the timings of the control condition (``no\_cut'')
-were fit{[}ted{]} into longer lasting shots by the following rationale:
-no\_cuts had to be apart from other no\_cuts and apart from any cut
-by ten seconds {[}better: separated from?{]}. Thus, a shot's duration
-was divided by a factor of ten seconds. The biggest integral multiple
-of ten yielded the number of possible time points for events of the
-no cut condition. Then, the shot's duration was divided by it's corresponding
-integral multiple to yield the temporal distance of the events in
-every shot. By this procedure within individual shots, time points
-are temporally equidistant apart to / from each other. Furthermore,
-this yielded a slight jitter interval past / after / follwing the
-ten second mark different for every shot. An additional jitter, different
-for every no cut was drawn from a gaussian distribution with mean
-= 0 and standard deviation of 1500 ms. The computational results {[}given
-in milliseconds{]} were then aligned to the timing of the movie's
-nearest frame. Finally, timings for all four conditions were written
-to file. 
+The rules to produce the condition from the annotation were as follows:
+When the setting or the major location was different from the setting
+in the previous line, the script assumed a switch of the setting.
+When the movie depicted the setting for the first time, the setting
+was regarded as unfamiliar (``setting\_new'') otherwise as familiar
+(``setting\_old''). When only the locale was different to the previous
+line, the script assumed a switch into another room (condition ``locale\_change'').
+When alle three locations (major location, setting and locale) in
+the current line were equal to the previous line, the script assumed
+a simple switch of the perspective inside the same locale. When a
+locale was depicted for the first time, the perspective was considered
+as unfamiliar (``perspectiv\_new'') otherwise as familiar (``perspective\_new''). 
 
-The total number of events for the conditions were: 386 events for
-perspective\_new (occuring in shots with median shot length of 3.96
-s; SD = 7.484 s), 208 events for perspective\_old (Mdn = 3.5 s; SD
-= 7.470 s), 96 events for setting\_new (Mdn = 8.92; SD = 21.882 s),
-90 events for setting\_old (Mdn = 7.68; SD = 9.440 s), 89 events for
-locale\_change (Mdn = 6.96; SD = 8855 s), 148 events for no\_cut (with
-the chosen factor of ten seconds; in 202 different shots; Mdn = 16.96
-s; SD = 16.090s)\todo{stats in this paragraph need to be computed from
+The total number of events for the conditions were: 96 events for
+setting\_new (Mdn = 8.92; SD = 21.882 s), 90 events for setting\_old
+(Mdn = 7.68; SD = 9.440 s), 89 events for locale\_change (Mdn = 6.96;
+SD = 8855 s), 386 events for perspective\_new (occuring in shots with
+median shot length of 3.96 s; SD = 7.484 s), and 208 events for perspective\_old
+(Mdn = 3.5 s; SD = 7.470 s)\todo{stats in this paragraph need to be computed from
 annotation}
 
 
