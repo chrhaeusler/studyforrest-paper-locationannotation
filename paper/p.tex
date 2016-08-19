@@ -105,6 +105,10 @@ reproduce it from commercially available sources are available in
 
 
 \subsection*{Annotation procedure}
+
+\todo[inline]{this section needs more info on the actual procedure:
+how many observers, what did you to exactly in which order?}
+
 Beispiel der Annotation: 
 \begin{table}[h]
 \begin{tabular}{lllllll}
@@ -131,91 +135,74 @@ actual annotation into a text file with comma-separated values (structure.csv).
 
 \subsection*{Annotation content}
 
-The annotation file comprises seven columns: One column for 1) the
-shot's start time, 2) the shot's major location, 3) it's setting,
-4) it's locale, 5) an interior exterior distinction of the location,
-6) it's temporal progression in respect to the previous shot and 7) it's
-time of day. 
+The annotation table contains one line per shot (sequence between two cuts) and
+seven columns: 1) a shot's \textit{start time}, 2) a label for the shot's
+\textit{major location}, 3) a label for the \textit{setting} within the
+location, 4) a label for the \textit{locale} within the setting, 5) a flag
+indicating an \textit{interior or exterior} setting, 6) a label for the type of
+\textit{temporal progression} with respect to the previous shot, and 7) a label
+for the \textit{time of day}. Further details are provided in the following
+sections.
 
 \subsubsection*{Shot start time}
 
-A shot's start time is defined as the first frame of a shot after
-a cut. The timings are written in the format hour:minute:second:frame.
-The values for the frame range from 0 to 24, reflecting the movie's
-frame rate of 25 frames per second. 
-
-% 870 shots if last "shot" which only contains black frames counts as a shot
-To check for human errors and validate the timings, the manual annotation was
-compared to an annotation created by an in-house developed, automated cut
-detection algorithm. In summary the shortened version of the movie comprises \NShots\ shots (duration:
-min=\unit[\ShotLengthMin]{s}, max=\unit[\ShotLengthMax]{s},
-median=\unit[\ShotLengthMedian]{s}, SD=\unit[\ShotLengthSD]{s}).
-
+A shot's start time is defined as the onset time of the first video frame of a
+shot after a cut. Time stamps a provided in seconds of movie onset. Cuts were
+detected manually, and later validated using an automated detection routine.
 
 \subsubsection*{Location}
 
-The location shown at the beginning of every shot was written into
-three different columns, reflecting increasing granularity: From the
-major location via setting through to locale. The movie's screenplay
-by Robert Roth (first draft; December 18, 1992) served as a template
-for the naming of the filmed locations. Where reasonable namings were
-adjusted. Further spatial information was added to fit into the three
-columns.
+Location was coded with three labels, describing the depicted scenary
+in increasing level of detail.
 
-Firstly, the major location represents the location on a more abstract
-level. It represents the city resp. town or, if the exact city is
-unknown, the region or country. For example Greenbow, Washington D.C.
-or Vietnam. 
+\textit{Major location} provides a course identification at the level of a
+town, county, or region where the respective story is taking place.  Labels
+were derived from the movie's screenplay by Robert Roth. Examples are:
+``Greenbow'', or ``Vietnam''.
 
-Secondly, the setting represents a subcategory for places which are
-in the same major location, but are not in direct sight. For example
-Forrest Gump's elementary school and the football field, which are
-both in the same major location of Greenbow, Alabama. A switch from
-one setting into another setting is mostly, but not always, congruent
-with a switch into another scene in a cinematographic sense.
+\textit{Setting} further details location by distinguishing places at the same
+major location, which are not in direct sight of each other. For example
+Forrest Gump's elementary school and the football field, both in Greenbow,
+Alabama. A switch from one setting to another is typically synonymous with a
+transition to a new scene in a cinematographic sense.
 
-Lastly, a setting was further subdivided into distinguishable locales.
-Indoors, a locale is congruent with a particular room bounded by its
-walls or floor. For example Forrest Gump's bedroom, the corridor downstairs
-and the corridor upstairs are three different rooms inside the Gumps'
-house (setting) on the Gumps' property (major location). Outdoors,
-different locales were assumed if two places could be considered as
-different rooms due to their distance to each other, due to logical
-borders or due to no or only a small number of overlapping objects
-and geometrical features. For example the glade at the river and the 
-finding place of Bubba are two different locales in the embattled jungle 
-(setting) in Vietnam (major location). A locale is equal to it's
-setting, when a setting depicts only one locale. 
+\textit{Locale} subdivides settings into distinguishable locales.  Indoors, a
+locale is congruent with a particular room enclosed by walls. For example
+Forrest Gump's bedroom, the corridor downstairs and the corridor upstairs are
+three different rooms inside the Gumps' house (setting) on the Gumps' property
+(major location). Outdoors, locales were distinguished when they were separated
+by a logical boundary, substantial distance, or shared no landmarks.  For
+example the glade at the river and the location of the wounded Bubba are two
+different locales in the embattled jungle (setting) in Vietnam (major
+location). A locale's label is identical to the respective setting label, when
+only one locale is depicted for this setting.
 
 
-\subsubsection*{Interior or exterior setting}
+\subsubsection*{Interior or exterior}
 
-Regarding the interior exterior distinction, a location inside a building
-or inside a car was labeled with ``int'', while locations outdoors
-were labeled with ``ext''. 
+This flag indicates whether a particular location is an open
+(``\texttt{ext}''), or enclosed space (``\texttt{int}''), such as a building,
+or a vehicle.
 
 
 \subsubsection*{Temporal progression}
 
-Firstly, every flashback, no matter how short the skipped time is, was
-coded as >>-<<. Second, a >>0<< was chosen, when the cut is supposed
-to show no noticeable break in the ongoing stream of time. In other
-words, in those cases the action is supposed to be edited in a continuous
-fashion, so the action is only shown from a different viewpoint after
-the cut. Third, a ``+'' represents noticeable breaks in the ongoing
-stream of time, ranging from mostly several seconds to about one to
-two hours. Finally, a ``++'' is used for obvious, major time jumps,
-ranging from mostly several hours (e.g. day to night) to a couple
-of years.
+This label indicates the depicted progression of time between the previous and
+the current shot. Four categories were distinguished: ``\texttt{-}'' labels a
+flashback, or jump into the past, independent of the temporal distance;
+``\texttt{0}'' indicates no noticeable break in the ongoing stream of time, for
+example a sole change of viewing perspective; ``\texttt{+}'' represents
+noticeable jumps in time, ranging from several seconds to about one or two
+hours; and lastly ``\texttt{++}'' marks major time jumps from several hours
+(e.g.  night vs. day) to several years.
 
 
-\subsubsection*{Time of day }
+\subsubsection*{Time of day}
 
-The last column represents the time of day as a binary variable. If
-the sun light is at least partially illuminating the scene, the time
-of day is coded as ``day''. By this rationale twilights (early sunrises
-and late sun settings) are also subsumed as ``day''. If sun light
-is entirely missing, the time of day is coded as ``night''. 
+This flag indicates whether a scene is at least partially illuminated by sun
+light. Consequently, day time and twilight (early sunrises and late sun
+settings) are labeled ``\texttt{day}''. If sun light is entirely missing,
+the time of day is coded as ``\texttt{night}''.
 
 
 
@@ -233,6 +220,19 @@ this paper is available in \texttt{descriptive\_stats.py} (Python script).
 % Information about any validation carried out and/or any limitations of the
 % datasets, including any allowances made for controlling bias or unwanted
 % sources of variability.
+
+% 870 shots if last "shot" which only contains black frames counts as a shot
+To check for human errors and validate the timings, the manual annotation was
+compared to an annotation created by an in-house developed, automated cut
+detection algorithm.
+
+In summary the shortened version of the movie comprises
+\NShots\ shots (duration: min=\unit[\ShotLengthMin]{s},
+max=\unit[\ShotLengthMax]{s}, median=\unit[\ShotLengthMedian]{s},
+SD=\unit[\ShotLengthSD]{s}).
+
+
+
 Locations only name places shown at the beginning of the shot, meaning 
 movements of the camera position during the shot are not taken into account.
 2-3 dissolves are counted as cuts
