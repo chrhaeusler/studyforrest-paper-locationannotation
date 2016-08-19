@@ -110,20 +110,16 @@ reproduce it from commercially available sources are available in
 \subsection*{Annotation procedure}
 
 First the movie was explored by two persons, one of them with an academic
-background in cinematography, in order to generate a consistent list of
+background in documentary filmmaking, in order to generate a consistent list of
 labels for depicted and recurring locations.
 
 Subsequently, the actual annotation was performed by the first author using a
 multi-pass strategy. The movie was manually investigated frame-by-frame to
-determine the location of cuts (using the video editor Shotcut v16.02.01).  Cut
+determine the location of cuts (using the video editor Shotcut v16.02.01). Cut
 timing was later validated against the results of an automated detection
-routine. For each new shot(sequence between two cuts) a number of properties,
-described below, were determined and entered into a table. A total of XXX
+routine. For each new shot (sequence between two cuts) a number of properties,
+described below, were determined and entered into a table. A total of four
 passes were performed in order to validate the annotation.
-
-% THIS SOUNDS LIKE IT SHOULD BE SOMEWHERE,  BUT NOT HERE
-%If the camera switched settings within a scene, names  were adjusted
-%accordingly.
 
 
 \subsection*{Annotation content}
@@ -170,7 +166,9 @@ town, county, or region where the respective story is taking place. Examples are
 major location, which are not in direct sight of each other. For example
 Forrest Gump's elementary school and the football field, both in Greenbow,
 Alabama. A switch from one setting to another is typically synonymous with a
-transition to a new scene in a cinematographic sense
+transition to a new scene in a cinematographic sense. If the camera switched 
+settings within a scene, the annotation deviates from the screenplay to make that
+switch to another setting explicit.
 
 \textit{Locale} subdivides settings into distinguishable locales.  Indoors, a
 locale is congruent with a particular room enclosed by walls. For example
@@ -244,17 +242,27 @@ movements of the camera position during the shot are not taken into account.
 2-3 dissolves are counted as cuts
 Subdividing settings into locales outside is kinda subjective 
 
+% evtl. koennte bei den folgenden 2 todos folgendes passen:
+% irgendwie will ich fuer die MA mit inkscape noch ein Bild zusammenschustern, in dem
+% Schnitte mit setting, locale, und perspective change deutlich werden.
+% dieses um ein Bsp. fuer major location switch zu ergaenzen ist 
+% nach entsprechendem Skillerwerb sicherlich kein Problem.
+% Ausserdem: die Skripte fuer meine Bedingungen kann ich so umschreiben, 
+% dass man Mdn & SD fuer Shot-laengen nach major, setting, locale und perspective
+% switches inkl. stacked histogramm bekommt.
+
 \todo[inline]{Place any information and illustrative figures here that help
 people figure out whether these annotation are useful/trustworthy for them}
+
 
 \subsection*{from raw annotation to experimental conditions}
 
 \todo[inline]{this section could be stripped of all FSL/MRI references
   and converted into a ``validation'' that lists possible conditions
   and counts the respective events in each, so people get a sense of
-  what is there. I would also remove the ``no-cut'' references, as those
-  are relatively arbitrary decision that are only meaningful in a particular
-context, not for the general annotation data}
+  what is there.}
+% dazu habe ich ein paar Fragen, weshalb ich es - zumal es sich mit der MA
+% parallel wenig ueberschneidet - noch offen gelassen habe.
 
 The first script (01\_structure\_annot\_to\_all\_timings.py) took
 the annotation as input and created a new csv-file (structure\_5\_conditions\_10sec.csv)
@@ -322,9 +330,9 @@ Project: Center for Behavioral Brain Sciences.
 %do not list grant funding in this section (this should be included in the
 %Grant information section - See above).
 We are grateful to Daniel Kottke for cross-checking the timing of the cuts in
-the movie using an automated detection routine. We would also like thank Gavin
+the movie using an automated detection routine. We would also like to thank Gavin
 Theren for sharing patiently his cinematographic knowledge 
-during movie watching and for his gastronomic skills on a professional level.
+during movie watching and for his high-level gastronomic skills.
 
 %\nocite{*}
 {\small\bibliographystyle{unsrt}
