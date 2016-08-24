@@ -135,7 +135,7 @@ sections.
 
 \begin{table}[h]
 \begin{tabular}{lllllll}
-\multicolumn{7}{l}{Table 1. Fucking Annotation}\tabularnewline
+\multicolumn{7}{l}{Table 1. Example lines from the annotation early in the movie}\tabularnewline
 \hline 
 time & major location & setting & locale & int or ext & flow of time & time of day\tabularnewline
 00:05:00:14  & Greenbow Alabama  & doctor's office  & doctor's office  & ext  & 0 & day\tabularnewline
@@ -235,21 +235,9 @@ In summary the shortened version of the movie comprises
 max=\unit[\ShotLengthMax]{s}, median=\unit[\ShotLengthMedian]{s},
 SD=\unit[\ShotLengthSD]{s}).
 
-
-
-Locations only name places shown at the beginning of the shot, meaning 
-movements of the camera position during the shot are not taken into account.
-2-3 dissolves are counted as cuts
-Subdividing settings into locales outside is kinda subjective 
-
-% evtl. koennte bei den folgenden 2 todos folgendes passen:
-% irgendwie will ich fuer die MA mit inkscape noch ein Bild zusammenschustern, in dem
-% Schnitte mit setting, locale, und perspective change deutlich werden.
-% dieses um ein Bsp. fuer major location switch zu ergaenzen ist 
-% nach entsprechendem Skillerwerb sicherlich kein Problem.
-% Ausserdem: die Skripte fuer meine Bedingungen kann ich so umschreiben, 
-% dass man Mdn & SD fuer Shot-laengen nach major, setting, locale und perspective
-% switches inkl. stacked histogramm bekommt.
+% jetzt haben wir uns den Entwurf der Visualisierung meiner Bedinungen nicht angeguckt,
+% denke aber, dass es hier ein bisschen gewollt wirkt: "Haben das Bild gerade da,
+% also fuegen wir es auch mit ein"
 
 \todo[inline]{Place any information and illustrative figures here that help
 people figure out whether these annotation are useful/trustworthy for them}
@@ -261,34 +249,6 @@ people figure out whether these annotation are useful/trustworthy for them}
   and converted into a ``validation'' that lists possible conditions
   and counts the respective events in each, so people get a sense of
   what is there.}
-% dazu habe ich ein paar Fragen, weshalb ich es - zumal es sich mit der MA
-% parallel wenig ueberschneidet - noch offen gelassen habe.
-
-The first script (01\_structure\_annot\_to\_all\_timings.py) took
-the annotation as input and created a new csv-file (structure\_5\_conditions\_10sec.csv)
-with columns ``time\_stamp'', ``seconds'' and ``condition''.
-The time stamp was a copy of the time stamp given in the raw annotation.
-It served for later visual inspection of conditions' correctness by
-easily copy and pasting it into Shotcut. 
-
-The column ``seconds'' coded the timing of an event's beginning
-from the movie's start in the format seconds.milliseconds. The column
-``condition'' coded an event's respective condition. The 5 conditions
-are named as follows: 1) ``setting\_new'', 2) ``setting\_old'',
-3) ``locale\_change'', 4) ``perspective\_new'' and 5) ``perspective\_old''. 
-
-The rules to produce the condition from the annotation were as follows:
-When the setting or the major location was different from the setting
-in the previous line, the script assumed a switch of the setting.
-When the movie depicted the setting for the first time, the setting
-was regarded as unfamiliar (``setting\_new'') otherwise as familiar
-(``setting\_old''). When only the locale was different to the previous
-line, the script assumed a switch into another room (condition ``locale\_change'').
-When alle three locations (major location, setting and locale) in
-the current line were equal to the previous line, the script assumed
-a simple switch of the perspective inside the same locale. When a
-locale was depicted for the first time, the perspective was considered
-as unfamiliar (``perspectiv\_new'') otherwise as familiar (``perspective\_new''). 
 
 The total number of events for the conditions were: 96 events for
 setting\_new (Mdn = 8.92; SD = 21.882 s), 90 events for setting\_old
