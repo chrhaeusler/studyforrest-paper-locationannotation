@@ -398,7 +398,7 @@ time,major location,setting,locale,int or ext,flow of time,time of day
 00:49:30:12,Vietnam,embattled jungle,in the embattled jungle,ext,0,day
 00:49:36:18,Vietnam,embattled jungle,in front of embattled jungle,ext,0,day
 00:50:01:20,Vietnam,embattled jungle,glade at river,ext,+,day
-00:50:13:03,Vietnam,embattled jungle,glade at river,ext, ,day
+00:50:13:03,Vietnam,embattled jungle,glade at river,ext,0,day
 00:50:27:21,Vietnam,embattled jungle,glade at river,ext,0,day
 00:50:41:11,Vietnam,embattled jungle,glade at river,ext,0,day
 00:50:59:20,Savannah,bench at bus stop,bench at bus stop,ext,++,day
