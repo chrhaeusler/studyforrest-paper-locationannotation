@@ -412,7 +412,7 @@ time,major location,setting,locale,int or ext,flow of time,time of day
 00:53:45:14,Vietnam,hospital lounge,hospital lounge,int,++,day
 00:53:51:12,Vietnam,hospital lounge,hospital lounge,int,0,day
 00:53:54:24,Vietnam,hospital lounge,hospital lounge,int,++,day
-00:54:11:20,Vietnam,hospital lounge,hospital lounge,int ,++,day
+00:54:11:20,Vietnam,hospital lounge,hospital lounge,int,++,day
 00:54:27:19,Vietnam,hospital dormitory,hospital dormitory,int,++,day
 00:54:36:13,Vietnam,hospital dormitory,hospital dormitory,int,0,day
 00:54:54:00,Washington D.C.,White House,front of White House (broadcast),ext,++,day
