@@ -133,16 +133,18 @@ indicating an \textit{interior or exterior} setting, 6) a label for the type of
 for the \textit{time of day}. Further details are provided in the following
 sections.
 
-\begin{table}[h]
+\begin{table}
+\caption{Example lines from the annotation early in the movie}
+\label{tab:example}
 \begin{tabular}{lllllll}
-\multicolumn{7}{l}{Table 1. Example lines from the annotation early in the movie}\tabularnewline
-\hline 
-time & major location & setting & locale & int or ext & flow of time & time of day\tabularnewline
+\hline\\ 
+\textbf{time} & \textbf{major location} & \textbf{setting} & \textbf{locale} & \textbf{int or ext} & \textbf{flow of time} & \textbf{time of day}\\
+\\\hline\\ 
 00:05:00:14  & Greenbow Alabama  & doctor's office  & doctor's office  & ext  & 0 & day\tabularnewline
 00:05:11:24  & Greenbow Alabama  & main street  & in front of barbershop  & ext  & + & day\tabularnewline
 00:05:18:07  & United States  & flashback countryside  & flashback countryside  & ext  & - & day\tabularnewline
 00:05:43:01 & Greenbow Alabama  & main street  & in front of barbershop  & ext  & ++ & day\tabularnewline
-\hline 
+\\\hline 
 \end{tabular}
 \end{table}
 
@@ -245,10 +247,15 @@ in the movie.
 
 \begin{table*}
   \centering
-  \begin{tabular}{lllllllllllll}
+  \caption{Descriptive statistics for all three levels of location annotation. \textit{Number of shots} indicates the total
+  number of shots in the movie for any particular location. \textit{Number of consecutive shots} indicates how many shots
+  are shown between two location changes at the respective level. \textit{Times revisted} indicates how often a location
+  reappears in the movie after it was depicted for the first time.}
+  \label{tab:stats}
+  \begin{tabular}{rrrrrrrrrrrrr}
     %& \multicolumn{3}{l}{\textbf{Event definition min. agreement}} \\
     % header
-    \\\hline\\
+    \hline\\
     &
     \multicolumn{4}{c}{\textbf{Major locations}} &
     \multicolumn{4}{c}{\textbf{Settings}} &
@@ -277,11 +284,6 @@ in the movie.
     \\
     \\\hline
   \end{tabular}
-  \caption{Descriptive statistics for all three levels of location annotation. \textit{Number of shots} indicates the total
-  number of shots in the movie for any particular location. \textit{Number of consecutive shots} indicates how many shots
-  are shown between two location changes at the respective level. \textit{Times revisted} indicates how often a location
-  reappears in the movie after it was depicted for the first time.}
-  \label{tab:stats}
 \end{table*}
 
 
