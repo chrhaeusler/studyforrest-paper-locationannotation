@@ -225,11 +225,30 @@ this paper is available in \texttt{descriptive\_stats.py} (Python script).
 % datasets, including any allowances made for controlling bias or unwanted
 % sources of variability.
 
+To check for human error in the cut time annotation, timings were compared to
+the results of an automatic detection algorithm and any deviation was manually
+verified.
+
+In summary, the shortened version of the movie comprises \NShots\ shots
+(duration: min=\unit[\ShotLengthMin]{s}, max=\unit[\ShotLengthMax]{s},
+median=\unit[\ShotLengthMedian]{s}, SD=\unit[\ShotLengthSD]{s}). There are
+\NExteriorShots\ shots depicting outdoor locations and \NInteriorShots\
+interior shots. Most shots take place during day time (\NDayShots\ day
+vs.~\NNightShots\ night). The majority of a shot transitions portray no
+noticable discontinuities of depicted time (\NShotsTimeNoJump), but the are
+\NShotsTimeSmallJump\ small, and \NShotsTimeLargeJump\ large time jumps, as
+well as \NShotsTimeFlashback\ flashbacks.
+
+Table \ref{tab:stats} provides information on the portrayal of unique locations
+in the movie.
+
+
 \begin{table*}
   \centering
   \begin{tabular}{lllllllllllll}
     %& \multicolumn{3}{l}{\textbf{Event definition min. agreement}} \\
     % header
+    \\\hline\\
     &
     \multicolumn{4}{c}{\textbf{Major locations}} &
     \multicolumn{4}{c}{\textbf{Settings}} &
@@ -258,47 +277,12 @@ this paper is available in \texttt{descriptive\_stats.py} (Python script).
     \\
     \\\hline
   \end{tabular}
-  \caption{Descriptive statistics.}
+  \caption{Descriptive statistics for all three levels of location annotation. \textit{Number of shots} indicates the total
+  number of shots in the movie for any particular location. \textit{Number of consecutive shots} indicates how many shots
+  are shown between two location changes at the respective level. \textit{Times revisted} indicates how often a location
+  reappears in the movie after it was depicted for the first time.}
   \label{tab:stats}
 \end{table*}
- 
-
-
-
-
-
-% 870 shots if last "shot" which only contains black frames counts as a shot
-To check for human errors and validate the timings, the manual annotation was
-compared to an annotation created by an in-house developed, automated cut
-detection algorithm.
-
-In summary the shortened version of the movie comprises
-\NShots\ shots (duration: min=\unit[\ShotLengthMin]{s},
-max=\unit[\ShotLengthMax]{s}, median=\unit[\ShotLengthMedian]{s},
-SD=\unit[\ShotLengthSD]{s}).
-
-% jetzt haben wir uns den Entwurf der Visualisierung meiner Bedinungen nicht angeguckt,
-% denke aber, dass es hier ein bisschen gewollt wirkt: "Haben das Bild gerade da,
-% also fuegen wir es auch mit ein"
-
-\todo[inline]{Place any information and illustrative figures here that help
-people figure out whether these annotation are useful/trustworthy for them}
-
-
-\subsection*{from raw annotation to experimental conditions}
-
-\todo[inline]{this section could be stripped of all FSL/MRI references
-  and converted into a ``validation'' that lists possible conditions
-  and counts the respective events in each, so people get a sense of
-  what is there.}
-
-The total number of events for the conditions were: 96 events for
-setting\_new (Mdn = 8.92; SD = 21.882 s), 90 events for setting\_old
-(Mdn = 7.68; SD = 9.440 s), 89 events for locale\_change (Mdn = 6.96;
-SD = 8855 s), 386 events for perspective\_new (occuring in shots with
-median shot length of 3.96 s; SD = 7.484 s), and 208 events for perspective\_old
-(Mdn = 3.5 s; SD = 7.470 s)\todo{stats in this paragraph need to be computed from
-annotation}
 
 
 \section*{Data availability}
