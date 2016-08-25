@@ -225,6 +225,48 @@ this paper is available in \texttt{descriptive\_stats.py} (Python script).
 % datasets, including any allowances made for controlling bias or unwanted
 % sources of variability.
 
+\begin{table*}
+  \centering
+  \begin{tabular}{lllllllllllll}
+    %& \multicolumn{3}{l}{\textbf{Event definition min. agreement}} \\
+    % header
+    &
+    \multicolumn{4}{c}{\textbf{Major locations}} &
+    \multicolumn{4}{c}{\textbf{Settings}} &
+    \multicolumn{4}{c}{\textbf{Locales}} \\
+    \\\hline\\
+    Number of unique & \multicolumn{4}{c}{\NMajorLocations} & \multicolumn{4}{c}{\NSettings} & \multicolumn{4}{c}{\NLocales} \\
+    \\\hline\\
+    % subheader
+    & min & med. & mean & max &
+      min & med. & mean & max &
+      min & med. & mean & max \\\\
+    Number of shots
+    & \ShotsPerMajorLocationMin & \ShotsPerMajorLocationMedian & \ShotsPerMajorLocationMean & \ShotsPerMajorLocationMax 
+    & \ShotsPerSettingMin & \ShotsPerSettingMedian & \ShotsPerSettingMean & \ShotsPerSettingMax 
+    & \ShotsPerLocaleMin & \ShotsPerLocaleMedian & \ShotsPerLocaleMean & \ShotsPerLocaleMax
+    \\
+    Number of consecutive shots
+    & \ConsecShotsPerMajorLocationMin & \ConsecShotsPerMajorLocationMedian & \ConsecShotsPerMajorLocationMean & \ConsecShotsPerMajorLocationMax 
+    & \ConsecShotsPerSettingMin & \ConsecShotsPerSettingMedian & \ConsecShotsPerSettingMean & \ConsecShotsPerSettingMax 
+    & \ConsecShotsPerLocaleMin & \ConsecShotsPerLocaleMedian & \ConsecShotsPerLocaleMean & \ConsecShotsPerLocaleMax
+    \\
+    Times revisited
+    & \NTimesMajorLocationsRevisitedMin & \NTimesMajorLocationsRevisitedMedian & \NTimesMajorLocationsRevisitedMean & \NTimesMajorLocationsRevisitedMax 
+    & \NTimesSettingsRevisitedMin & \NTimesSettingsRevisitedMedian & \NTimesSettingsRevisitedMean & \NTimesSettingsRevisitedMax 
+    & \NTimesLocalesRevisitedMin & \NTimesLocalesRevisitedMedian & \NTimesLocalesRevisitedMean & \NTimesLocalesRevisitedMax
+    \\
+    \\\hline
+  \end{tabular}
+  \caption{Descriptive statistics.}
+  \label{tab:stats}
+\end{table*}
+ 
+
+
+
+
+
 % 870 shots if last "shot" which only contains black frames counts as a shot
 To check for human errors and validate the timings, the manual annotation was
 compared to an annotation created by an in-house developed, automated cut
