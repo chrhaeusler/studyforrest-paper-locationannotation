@@ -114,7 +114,7 @@ reproduce it from commercially available sources are available in
 \subsection*{Annotation procedure}
 
 First the movie was explored by two persons, one of them with an academic
-background in documentary filmmaking, in order to generate a consistent list of
+background in documentary film making, in order to generate a consistent list of
 labels for depicted and recurring locations.
 
 Subsequently, the actual annotation was performed by the first author using a
@@ -161,7 +161,7 @@ shot after a cut. Time stamps a provided in seconds of movie onset.
 
 \subsubsection*{Location}
 
-Location was coded with three labels, describing the depicted scenary
+Location was coded with three labels, describing the depicted scenery
 in increasing level of detail.
 
 \paragraph{Major location} (\texttt{major\_location}) provides a course
@@ -204,7 +204,7 @@ flashback, or jump into the past, independent of the temporal distance;
 example a sole change of viewing perspective; ``\texttt{+}'' represents
 noticeable jumps in time, ranging from several seconds to about one or two
 hours; and lastly ``\texttt{++}'' marks major time jumps from several hours
-(e.g.  night vs. day) to several years.
+(e.g.  night vs.~day) to several years.
 
 
 \subsubsection*{Time of day (\texttt{time\_of\_day})}
@@ -220,7 +220,7 @@ the time of day is coded as ``\texttt{night}''.
 
 % ~30 words
 The released annotation is a single text-based, comma-separated-value (CSV)
-formated table.
+formatted table.
 
 The source code for all descriptive statistics and included in this paper is
 available in \texttt{code/descriptive\_stats.py} (Python script).
@@ -242,7 +242,7 @@ median=\unit[\ShotLengthMedian]{s}, SD=\unit[\ShotLengthSD]{s}). There are
 \NExteriorShots\ shots depicting outdoor locations and \NInteriorShots\
 interior shots. Most shots take place during day time (\NDayShots\ day
 vs.~\NNightShots\ night). The majority of a shot transitions portray no
-noticable discontinuities of depicted time (\NShotsTimeNoJump), but the are
+noticeable discontinuities of depicted time (\NShotsTimeNoJump), but the are
 \NShotsTimeSmallJump\ small, and \NShotsTimeLargeJump\ large time jumps, as
 well as \NShotsTimeFlashback\ flashbacks.
 
@@ -252,10 +252,12 @@ in the movie.
 
 \begin{table*}[b]
   \centering
-  \caption{Descriptive statistics for all three levels of location annotation. \textit{Number of shots} indicates the total
-  number of shots in the movie for any particular location. \textit{Number of consecutive shots} indicates how many shots
-  are shown between two location changes at the respective level. \textit{Times revisted} indicates how often a location
-  reappears in the movie after it was depicted for the first time.}
+  \caption{Descriptive statistics for all three levels of location annotation.
+    \textit{Number of shots} indicates the total number of shots in the movie
+    for any particular location. \textit{Number of consecutive shots} indicates
+    how many shots are shown between two location changes at the respective
+    level. \textit{Times revisited} indicates how often a location
+    reappears in the movie after it was depicted for the first time.}
   \label{tab:stats}
   \begin{tabular}{rrrrrrrrrrrrr}
     %& \multicolumn{3}{l}{\textbf{Event definition min. agreement}} \\
