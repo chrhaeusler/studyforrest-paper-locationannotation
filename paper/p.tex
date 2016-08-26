@@ -127,14 +127,14 @@ passes were performed in order to validate the annotation.
 
 \subsection*{Data legend}
 
-The annotation table contains one line per shot and
-seven columns: 1) a shot's \textit{start time}, 2) a label for the shot's
-\textit{major location}, 3) a label for the \textit{setting} within the
-location, 4) a label for the \textit{locale} within the setting, 5) a flag
-indicating an \textit{interior or exterior} setting, 6) a label for the type of
-\textit{temporal progression} with respect to the previous shot, and 7) a label
-for the \textit{time of day}. Further details are provided in the following
-sections.
+The annotation table contains one line per shot and seven columns: 1) a shot's
+\textit{start time}, 2) a label for the shot's \textit{major location}, 3) a
+label for the \textit{setting} within the location, 4) a label for the
+\textit{locale} within the setting, 5) a flag indicating an \textit{interior or
+exterior} setting, 6) a label for the type of \textit{temporal progression}
+with respect to the previous shot, and 7) a label for the \textit{time of day}.
+Further details are provided in the following sections. The respective column
+header labels are given in parenthesis.
 
 \begin{table*}
 \caption{Example annotations for four shots at the beginning of the movie. Note
@@ -155,7 +155,7 @@ that table headers do not literally correspond to column headers, see Data Legen
 
 
 
-\subsubsection*{Shot start time}
+\subsubsection*{Shot start time (\texttt{time})}
 
 A shot's start time is defined as the onset time of the first video frame of a
 shot after a cut. Time stamps a provided in seconds of movie onset. 
@@ -165,38 +165,38 @@ shot after a cut. Time stamps a provided in seconds of movie onset.
 Location was coded with three labels, describing the depicted scenary
 in increasing level of detail.
 
-\paragraph{Major location} provides a course identification at the level of a
-town, county, or region where the respective story is taking place. Examples are:
-``Greenbow'', or ``Vietnam''.
+\paragraph{Major location} (\texttt{major\_location}) provides a course
+identification at the level of a town, county, or region where the respective
+story is taking place. Examples are: ``Greenbow'', or ``Vietnam''.
 
-\paragraph{Setting} further details location by distinguishing places at the same
-major location, which are not in direct sight of each other. For example
-Forrest Gump's elementary school and the football field, both in Greenbow,
-Alabama. A switch from one setting to another is typically synonymous with a
-transition to a new scene in a cinematographic sense. If the camera switched 
-settings within a scene, the annotation deviates from the screenplay to make that
-switch to another setting explicit.
+\paragraph{Setting} (\texttt{setting}) further details location by
+distinguishing places at the same major location, which are not in direct sight
+of each other. For example Forrest Gump's elementary school and the football
+field, both in Greenbow, Alabama. A switch from one setting to another is
+typically synonymous with a transition to a new scene in a cinematographic
+sense. If the camera switched settings within a scene, the annotation deviates
+from the screenplay to make that switch to another setting explicit.
 
-\paragraph{Locale} subdivides settings into distinguishable locales.  Indoors, a
-locale is congruent with a particular room enclosed by walls. For example
-Forrest Gump's bedroom, the corridor downstairs and the corridor upstairs are
-three different rooms inside the Gumps' house (setting) on the Gumps' property
-(major location). Outdoors, locales were distinguished when they were separated
-by a logical boundary, substantial distance, or shared no landmarks.  For
-example the glade at the river and the location of the wounded Bubba are two
-different locales in the embattled jungle (setting) in Vietnam (major
-location). A locale's label is identical to the respective setting label, when
-only one locale is depicted for this setting.
+\paragraph{Locale} (\texttt{locale}) subdivides settings into distinguishable
+locales.  Indoors, a locale is congruent with a particular room enclosed by
+walls. For example Forrest Gump's bedroom, the corridor downstairs and the
+corridor upstairs are three different rooms inside the Gumps' house (setting)
+on the Gumps' property (major location). Outdoors, locales were distinguished
+when they were separated by a logical boundary, substantial distance, or shared
+no landmarks.  For example the glade at the river and the location of the
+wounded Bubba are two different locales in the embattled jungle (setting) in
+Vietnam (major location). A locale's label is identical to the respective
+setting label, when only one locale is depicted for this setting.
 
 
-\subsubsection*{Interior or exterior}
+\subsubsection*{Interior or exterior (\texttt{int\_or\_ext})}
 
 This flag indicates whether a particular location is an open
 (``\texttt{ext}''), or enclosed space (``\texttt{int}''), such as a building,
 or a vehicle.
 
 
-\subsubsection*{Temporal progression}
+\subsubsection*{Temporal progression (\texttt{flow\_of\_time})}
 
 This label indicates the depicted progression of time between the previous and
 the current shot. Four categories were distinguished: ``\texttt{-}'' labels a
@@ -208,7 +208,7 @@ hours; and lastly ``\texttt{++}'' marks major time jumps from several hours
 (e.g.  night vs. day) to several years.
 
 
-\subsubsection*{Time of day}
+\subsubsection*{Time of day (\texttt{time\_of\_day})}
 
 This flag indicates whether a scene is at least partially illuminated by sun
 light. Consequently, day time and twilight (early sunrises and late sun
