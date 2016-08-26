@@ -4,6 +4,7 @@
 \usepackage{units}
 \usepackage[colorlinks]{hyperref}
 \usepackage{url}
+\usepackage{booktabs}
 \usepackage[sort,compress]{natbib}
 
 \begin{document}
@@ -141,14 +142,14 @@ that table headers do not literally correspond to column headers, see Data Legen
 (ToD: time of day).}
 \label{tab:example}
 \begin{tabular}{lllllll}
-\hline\\ 
+\toprule
 \textbf{time} & \textbf{major location} & \textbf{setting} & \textbf{locale} & \textbf{int/ext} & \textbf{flow of time} & \textbf{ToD}\\
-\\\hline\\ 
+\midrule
 311.96  & Greenbow Alabama  & doctor's office  & doctor's office  & ext  & 0 & day\tabularnewline
 318.28  & Greenbow Alabama  & main street  & in front of barbershop  & ext  & + & day\tabularnewline
 343.04  & United States  & flashback countryside  & flashback countryside  & ext  & - & day\tabularnewline
 353.08 & Greenbow Alabama  & main street  & in front of barbershop  & ext  & ++ & day\tabularnewline
-\\\hline 
+\bottomrule
 \end{tabular}
 \end{table*}
 
@@ -259,34 +260,34 @@ in the movie.
   \begin{tabular}{rrrrrrrrrrrrr}
     %& \multicolumn{3}{l}{\textbf{Event definition min. agreement}} \\
     % header
-    \hline\\
+    \toprule
     &
-    \multicolumn{4}{c}{\textbf{Major locations}} &
-    \multicolumn{4}{c}{\textbf{Settings}} &
-    \multicolumn{4}{c}{\textbf{Locales}} \\
-    \\\hline\\
-    Number of unique & \multicolumn{4}{c}{\NMajorLocations} & \multicolumn{4}{c}{\NSettings} & \multicolumn{4}{c}{\NLocales} \\
-    \\\hline\\
+    \multicolumn{4}{c}{\textbf{major locations}} &
+    \multicolumn{4}{c}{\textbf{settings}} &
+    \multicolumn{4}{c}{\textbf{locales}} \\
+    \midrule
+    number of unique & \multicolumn{4}{c}{\NMajorLocations} & \multicolumn{4}{c}{\NSettings} & \multicolumn{4}{c}{\NLocales} \\
+    \midrule
     % subheader
     & min & med. & mean & max &
       min & med. & mean & max &
       min & med. & mean & max \\\\
-    Number of shots
+    number of shots
     & \ShotsPerMajorLocationMin & \ShotsPerMajorLocationMedian & \ShotsPerMajorLocationMean & \ShotsPerMajorLocationMax 
     & \ShotsPerSettingMin & \ShotsPerSettingMedian & \ShotsPerSettingMean & \ShotsPerSettingMax 
     & \ShotsPerLocaleMin & \ShotsPerLocaleMedian & \ShotsPerLocaleMean & \ShotsPerLocaleMax
     \\
-    Number of consecutive shots
+    number of consecutive shots
     & \ConsecShotsPerMajorLocationMin & \ConsecShotsPerMajorLocationMedian & \ConsecShotsPerMajorLocationMean & \ConsecShotsPerMajorLocationMax 
     & \ConsecShotsPerSettingMin & \ConsecShotsPerSettingMedian & \ConsecShotsPerSettingMean & \ConsecShotsPerSettingMax 
     & \ConsecShotsPerLocaleMin & \ConsecShotsPerLocaleMedian & \ConsecShotsPerLocaleMean & \ConsecShotsPerLocaleMax
     \\
-    Times revisited
+    times revisited
     & \NTimesMajorLocationsRevisitedMin & \NTimesMajorLocationsRevisitedMedian & \NTimesMajorLocationsRevisitedMean & \NTimesMajorLocationsRevisitedMax 
     & \NTimesSettingsRevisitedMin & \NTimesSettingsRevisitedMedian & \NTimesSettingsRevisitedMean & \NTimesSettingsRevisitedMax 
     & \NTimesLocalesRevisitedMin & \NTimesLocalesRevisitedMedian & \NTimesLocalesRevisitedMean & \NTimesLocalesRevisitedMax
     \\
-    \\\hline
+    \bottomrule
   \end{tabular}
 \end{table*}
 
