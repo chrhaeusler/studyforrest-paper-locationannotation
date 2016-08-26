@@ -1,4 +1,4 @@
-\documentclass[10pt,a4paper,twocolumn]{article}
+\documentclass[10pt,a4paper]{article}
 %\usepackage{endfloat}
 \usepackage{f1000_styles}
 \usepackage{units}
@@ -6,6 +6,7 @@
 \usepackage{url}
 \usepackage{booktabs}
 \usepackage[sort,compress]{natbib}
+\usepackage{multicol}
 
 \begin{document}
 
@@ -22,30 +23,30 @@
 \maketitle
 \thispagestyle{fancy}
 
+\begin{multicols}{1}
 \begin{abstract}
 % Abstracts should be up to 300 words and provide a succinct summary of the
 % article. Although the abstract should explain why the article might be
 % interesting, care should be taken not to inappropriately over-emphasise the
 % importance of the work described in the article. Citations should not be used
 % in the abstract, and the use of abbreviations should be minimized.
-Here we present a complementary annotation of the audio-visual movie ``Forrest
-Gump'' as part of a large public functional brain imaging dataset
-(studyforrest; http://studyforrest.org). The annotation provides information
-about the exact timing of every cut and the depicted location after every
-cut with a high, a medium and a low level of abstraction as well as a
-distinction between interior and exterior. It additionally provides
-information about the type of temporal progression from one shot to the
-next and about the time of day the shot’s action is taking place.
-Further, we present descriptive statistics of the annotated variables.
-Statistics suggest the movie can be used to study visual perception or memory
-of locations and the perception of time.
+
+% 103 words
+Here we present an annotation of locations and temporal progression depicted in
+the movie ``Forrest Gump'', as an addition to a large public functional brain
+imaging dataset (\url{http://studyforrest.org}).  The annotation provides
+information about the exact timing of each of the \NShots\ shots, and the
+depicted location after every cut with a high, a medium and a low level of
+abstraction.  Additionally, four classes of changes in depicted time between
+shots are distinguished.  A shot is also annotated regarding type of location
+(interior/exterior), and time of day.  This annotation enables further studies
+of visual perception, memory of locations, and the perception of time under
+conditions of real-life complexity using the studyforrest dataset.
 
 \end{abstract}
+\end{multicols}
 
-\listoftodos[ToDo notes]
-
-\clearpage
-
+\begin{multicols}{2}
 %The format of the main body of the article is flexible: it should be concise
 %and in the format most appropriate to displaying the content of the article.
 
@@ -101,7 +102,7 @@ key properties of major building blocks of this movie stimulus.
 
 \subsection*{Stimulus}
 
-% ~600 words
+% ~160 words till data legend
 The annotated stimulus was a slightly shortened ($\approx$\unit[2]{h}) version
 of the movie Forrest~Gump (R.~Zemeckis, Paramount Pictures, 1994) with dubbed
 German soundtrack, and is identical to the audio-visual movie annotated in
@@ -124,19 +125,7 @@ routine. For each new shot (sequence between two cuts) a number of properties,
 described below, were determined and entered into a table. A total of four
 passes were performed in order to validate the annotation.
 
-
-\subsection*{Data legend}
-
-The annotation table contains one line per shot and seven columns: 1) a shot's
-\textit{start time}, 2) a label for the shot's \textit{major location}, 3) a
-label for the \textit{setting} within the location, 4) a label for the
-\textit{locale} within the setting, 5) a flag indicating an \textit{interior or
-exterior} setting, 6) a label for the type of \textit{temporal progression}
-with respect to the previous shot, and 7) a label for the \textit{time of day}.
-Further details are provided in the following sections. The respective column
-header labels are given in parenthesis.
-
-\begin{table*}
+\begin{table*}[t]
 \caption{Example annotations for four shots at the beginning of the movie. Note
 that table headers do not literally correspond to column headers, see Data Legend
 (ToD: time of day).}
@@ -153,6 +142,16 @@ that table headers do not literally correspond to column headers, see Data Legen
 \end{tabular}
 \end{table*}
 
+\subsection*{Data legend}
+
+The annotation table contains one line per shot and seven columns: 1) a shot's
+\textit{start time}, 2) a label for the shot's \textit{major location}, 3) a
+label for the \textit{setting} within the location, 4) a label for the
+\textit{locale} within the setting, 5) a flag indicating an \textit{interior or
+exterior} setting, 6) a label for the type of \textit{temporal progression}
+with respect to the previous shot, and 7) a label for the \textit{time of day}.
+Further details are provided in the following sections. The respective column
+header labels are given in parenthesis.
 
 
 \subsubsection*{Shot start time (\texttt{time})}
@@ -219,12 +218,12 @@ the time of day is coded as ``\texttt{night}''.
 
 \subsection*{Dataset content}
 
-\todo[inline]{What exactly is released, in what format?}
+% ~30 words
+The released annotation is a single text-based, comma-separated-value (CSV)
+formated table.
 
-\paragraph{Source code}
-
-The full source code for all descriptive statistics and figures included in
-this paper is available in \texttt{descriptive\_stats.py} (Python script).
+The source code for all descriptive statistics and included in this paper is
+available in \texttt{code/descriptive\_stats.py} (Python script).
 
 
 \section*{Dataset validation}
@@ -232,6 +231,7 @@ this paper is available in \texttt{descriptive\_stats.py} (Python script).
 % datasets, including any allowances made for controlling bias or unwanted
 % sources of variability.
 
+% ~170 words
 To check for human error in the cut time annotation, timings were compared to
 the results of an automatic detection algorithm and any deviation was manually
 verified.
@@ -250,7 +250,7 @@ Table \ref{tab:stats} provides information on the portrayal of unique locations
 in the movie.
 
 
-\begin{table*}
+\begin{table*}[b]
   \centering
   \caption{Descriptive statistics for all three levels of location annotation. \textit{Number of shots} indicates the total
   number of shots in the movie for any particular location. \textit{Number of consecutive shots} indicates how many shots
@@ -329,8 +329,9 @@ during movie watching and for his high-level gastronomic skills.
 
 %\nocite{*}
 {\small\bibliographystyle{unsrt}
-\bibliography{references,bibliography_forrest_gump}
+\bibliography{references,bibliography_forrest_gump}}
 
+\end{multicols}
 \end{document}
 
 % vim: textwidth=80 colorcolumn=81
