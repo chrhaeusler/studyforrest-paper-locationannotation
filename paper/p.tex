@@ -71,14 +71,11 @@ hundreds of short sequences shot from a variety of perspectives
 discontinuities in the sensory input that require all viewers to re-assess the
 depicted environment in order to perform a cognitive re-orientation in fictional
 space and time. This re-orientation can be complex and involve a
-large bandwidth of cognitive processes: detection of familiar settings,
+large bandwidth of cognitive processes: interpretation of contextual cues for
+detection of familiar settings,
 retrieval of prior knowledge from memory, discovery of change in locales and
 depicted characters. Consequently movies, and their cuts in particular, offer an
 excellent instrument to study complex, concurrent, real-life cognition.
-
-% TODO: The 2nd and 3rd to-last sentences over-state and are overly certain IMO.
-% attention should be paid to the entire premise of montages (see Soviet Montage
-% Theory and also the Kuleshov Effect).
 
 In this study, we focus on spatial and temporal viewer re-orientation, and, to
 this end, describe changes in depicted location and time for all cuts in the
@@ -226,9 +223,9 @@ time of day is coded as ``\texttt{night}''.
 
 % ~30 words
 The released annotation is a single, text-based, comma-separated-value (CSV)
-formatted table.
+formatted table (\texttt{data/structure.csv}).
 
-The source code for all descriptive statistics and included in this paper is
+The source code for all descriptive statistics included in this paper is
 available in \texttt{code/descriptive\_stats.py} (Python script).
 
 
@@ -248,7 +245,7 @@ median=\unit[\ShotLengthMedian]{s}, SD=\unit[\ShotLengthSD]{s}). There are
 \NExteriorShots\ shots depicting outdoor locations and \NInteriorShots\
 interior shots. Most shots take place during daytime (\NDayShots\ day
 vs.~\NNightShots\ night). The majority of cuts involve no
-noticeable discontinuities of depicted time (\NShotsTimeNoJump), but the are
+noticeable discontinuities of depicted time (\NShotsTimeNoJump), but there are
 \NShotsTimeSmallJump\ small and \NShotsTimeLargeJump\ large time jumps, as
 well as \NShotsTimeFlashback\ flashbacks.
 
