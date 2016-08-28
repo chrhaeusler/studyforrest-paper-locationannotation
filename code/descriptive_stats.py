@@ -31,17 +31,19 @@ def timestamp2sec(ts, fps=25):
 
 def load_annotations(fname=opj('data', 'structure.csv')):
     annot = np.recfromcsv(fname)
-    times = [timestamp2sec(t) for t in annot['time']]
-    # do a little dance to get timestamps as floating point seconds
-    # in the recarray
-    annot['time'] = [0] * len(times)
-    # convert dtype for time
-    dt = annot.dtype.descr
-    dt[0] = (dt[0][0], 'float64')
-    dt = np.dtype(dt)
-    annot = annot.astype(dt)
-    # reassign converted timestamps over the dummy zeros
-    annot['time'] = times
+    # disabled code below was used to convert from shotcut timestamps
+    # to seconds
+    #times = [timestamp2sec(t) for t in annot['time']]
+    ## do a little dance to get timestamps as floating point seconds
+    ## in the recarray
+    #annot['time'] = [0] * len(times)
+    ## convert dtype for time
+    #dt = annot.dtype.descr
+    #dt[0] = (dt[0][0], 'float64')
+    #dt = np.dtype(dt)
+    #annot = annot.astype(dt)
+    ## reassign converted timestamps over the dummy zeros
+    #annot['time'] = times
     return annot
 
 
@@ -123,5 +125,13 @@ def print_descriptive_stats_as_tex(data):
 
 
 if __name__ == '__main__':
+    ## originally stored with
+    #np.savetxt(
+    #    'test.csv',
+    #    shots,
+    #    fmt=['%.2f', '%s', '%s', '%s', '%s', '%s', '%s'],
+    #    delimiter=',',
+    #    header=','.join(shots.dtype.names),
+    #    comments='')
     shots = load_annotations()
     print_descriptive_stats_as_tex(shots)
