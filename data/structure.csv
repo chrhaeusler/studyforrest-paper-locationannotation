@@ -1,4 +1,4 @@
-time,major location,setting,locale,int or ext,flow of time,time of day
+time,major_location,setting,locale,int_or_ext,flow_of_time,time_of_day
 00:00:00:00,Paramount,mountain logo,mountain logo,ext,0,day
 00:00:17:00,Savannah,sky over Savannah,sky over Savannah,ext,++,day
 00:02:48:02,Savannah,bench at bus stop,bench at bus stop,ext,0,day
