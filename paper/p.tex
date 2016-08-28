@@ -1,31 +1,29 @@
-\documentclass[10pt,a4paper,twocolumn]{article}
-\usepackage{endfloat}
+\documentclass[10pt,a4paper]{article}
+%\usepackage{endfloat}
 \usepackage{f1000_styles}
-\usepackage{listings}
 \usepackage{units}
 \usepackage[colorlinks]{hyperref}
 \usepackage{url}
-\usepackage{appendix}
-\usepackage{soul}
-
-\definecolor{dkgreen}{rgb}{0,0.6,0}
-\definecolor{gray}{rgb}{0.5,0.5,0.5}
-\definecolor{mauve}{rgb}{0.58,0,0.82}
+\usepackage{booktabs}
+\usepackage[sort,compress]{natbib}
+\usepackage{multicol}
 
 \begin{document}
 
-%\input{results_def.tex}
+\input{results_def.tex}
 
-\title{\ldots annotation of \ldots in the motion picture ``Forrest Gump''}
+\title{An annotation of cuts, depicted locations, and temporal progression in
+the motion picture ``Forrest Gump''}
 
-\author[1]{Christian Häusler}
+\author[1]{Christian~O.~Häusler}
 \author[1,2]{Michael Hanke}
 
-\affil[1]{Psychoinformatics lab, Department of Psychology, University of Magdeburg, Universit\"{a}tsplatz 2, 39106 Magdeburg, Germany}
+\affil[1]{Psychoinformatics Lab, Department of Psychology, University of Magdeburg, Universit\"{a}tsplatz 2, 39106 Magdeburg, Germany}
 \affil[2]{Center for Behavioral Brain Sciences, Magdeburg, Germany}
 \maketitle
 \thispagestyle{fancy}
 
+\begin{multicols}{1}
 \begin{abstract}
 % Abstracts should be up to 300 words and provide a succinct summary of the
 % article. Although the abstract should explain why the article might be
@@ -33,25 +31,270 @@
 % importance of the work described in the article. Citations should not be used
 % in the abstract, and the use of abbreviations should be minimized.
 
-\end{abstract}
-\clearpage
+% 118 words
+Here we present an annotation of locations and temporal progression depicted in
+the movie ``Forrest Gump'', as an addition to a large public functional brain
+imaging dataset (\url{http://studyforrest.org}). The annotation provides
+information about the exact timing of each of the \NShots\ shots, and the
+depicted location after every cut with a high, medium, and low level of
+abstraction. Additionally, four classes are used to distinguish the differences
+of the depicted time between shots. Each shot is also annotated regarding the
+type of location (interior/exterior) and time of day. This annotation enables
+further studies of visual perception, memory of locations, and the perception of
+time under conditions of real-life complexity using the studyforrest dataset.
 
+\end{abstract}
+\end{multicols}
+
+\begin{multicols}{2}
 %The format of the main body of the article is flexible: it should be concise
 %and in the format most appropriate to displaying the content of the article.
 
 \section*{Introduction}
+% ~380 words
 % Rationale for creating the dataset(s) and/or objectives for the experiment
 % resulting in the dataset - why the data were gathered or produced.
+
+Cognitive neuroimaging research is moving towards studying brain behavior under
+conditions of real-life-like complexity, and motion pictures are being utilized
+with increasing frequency as stimuli in ``neurocinematics'' studies
+\citep{hasson_2008_neurocinematics}. What sets motion pictures apart from other
+dynamic naturalistic stimuli is that they are more likely to evoke time-locked
+response patterns in a larger portion of the brain while retaining synchrony
+across multiple individuals who are experiencing the same movie
+\citep{hasson_2009_natural_stim_review,lankinen_2014_MEG_during_movie}. One
+likely reason for this is the structure of movies. They are typically not
+prolonged, contiguous captures of an environment from a first person
+perspective, but rather they are carefully assembled, using ``cuts'', from
+hundreds of short sequences shot from a variety of perspectives
+\citep{cutting_2011_changing_poetics_of_dissolve}. These cuts are sharp
+discontinuities in the sensory input that require all viewers to re-assess the
+depicted environment in order to perform a cognitive re-orientation in fictional
+space and time. This re-orientation can be complex and involve a
+large bandwidth of cognitive processes: interpretation of contextual cues for
+detection of familiar settings,
+retrieval of prior knowledge from memory, discovery of change in locales and
+depicted characters. Consequently movies, and their cuts in particular, offer an
+excellent instrument to study complex, concurrent, real-life cognition.
+
+In this study, we focus on spatial and temporal viewer re-orientation, and, to
+this end, describe changes in depicted location and time for all cuts in the
+motion picture ``Forrest Gump''. This movie is the core stimulus of the
+\textit{studyforrest} project (\url{http://studyforrest}). Two fMRI datasets
+are publicly available: 1) participants listening to an audio-movie version
+\citep{HBI+14} and 2) a subset of the original participants watching the
+audio-visual movie with simultaneous eye tracking \citep{HAK+16}. Additional
+imaging data and movie annotations are available \citep{HDH+2015,LRS+2015},
+including an individual localization of the \textit{parahippocampal place area}
+\citep{SKG+16} that has been implicated in spatial perception and scene
+processing \citep{EK1998}.
+
+This new annotation extends the available knowledge about the structure of this
+complex natural stimulus and enriches the overall studyforrest dataset. These
+data can be used to investigate the formation of a representation of viewer
+location and the perception of (speeded or negative) temporal progression in
+the movie stimulus. For any study focusing on other aspects of real-life
+cognition, these new data can serve as additional confound measures describing
+key properties of major building blocks of this movie stimulus.
 
 
 \section*{Materials and methods}
 % Detailed account of the protocol used to generate the dataset
+
+\subsection*{Stimulus}
+
+% ~160 words till data legend
+The annotated stimulus was a slightly shortened ($\approx$\unit[2]{h}) version
+of the movie Forrest~Gump (R.~Zemeckis, Paramount Pictures, 1994) with dubbed
+German soundtrack that is identical to the audio-visual movie annotated in
+\cite{LRS+2015}. Further details on this particular movie cut, and how to
+reproduce it from commercially available sources, are available in
+\cite{HAK+16}.
+
+
+\subsection*{Annotation procedure}
+
+\begin{table*}[t]
+\caption{Example annotations for four shots at the beginning of the movie. Note
+that table headers do not literally correspond to column headers, see Data Legend
+(ToD: time of day).}
+\label{tab:example}
+\begin{tabular}{lllllll}
+\toprule
+\textbf{time} & \textbf{major location} & \textbf{setting} & \textbf{locale} & \textbf{int/ext} & \textbf{flow of time} & \textbf{ToD}\\
+\midrule
+311.96  & Greenbow Alabama  & doctor's office  & doctor's office  & ext  & 0 & day\tabularnewline
+318.28  & Greenbow Alabama  & main street  & in front of barbershop  & ext  & + & day\tabularnewline
+343.04  & United States  & flashback countryside  & flashback countryside  & ext  & - & day\tabularnewline
+353.08 & Greenbow Alabama  & main street  & in front of barbershop  & ext  & ++ & day\tabularnewline
+\bottomrule
+\end{tabular}
+\end{table*}
+
+
+First, the movie was explored by two people, one of whom has an academic
+background in documentary film making, in order to generate a consistent list of
+labels for depicted and recurring locations.
+
+Subsequently, the actual annotation was performed by the first author using a
+multi-pass strategy. The movie was manually inspected frame-by-frame to
+determine the location of cuts (using the video editor Shotcut v16.02.01).
+For each new shot (sequence between two cuts), a number of properties (described
+below) were discerned and entered into a table. A total of four passes were
+performed by the same observer in order to validate the annotation.
+
+\subsection*{Data legend}
+
+The annotation table contains one line per shot and seven columns: 1) a shot's
+\textit{start time}, 2) a label for the shot's \textit{major location}, 3) a
+label for the \textit{setting} within the location, 4) a label for the
+\textit{locale} within the setting, 5) a flag indicating an \textit{interior or
+exterior} setting, 6) a label for the type of \textit{temporal progression}
+with respect to the previous shot, and 7) a label for the \textit{time of day}.
+Further details are provided in the following sections. The respective column
+header labels are given in parenthesis.
+
+
+\subsubsection*{Shot start time (\texttt{time})}
+
+A shot's start time is defined as the onset time of the first video frame of a
+shot after a cut. Time stamps a provided in seconds of movie onset.
+
+\subsubsection*{Location}
+
+% TODO: This... doesn't sound accurate. Check?
+Location was coded with three labels, each describing the depicted scenery
+with an increasing level of detail.
+
+\paragraph{Major location} (\texttt{major\_location}) provides a coarse
+identification at the level of a town, county, or region where the respective
+story is taking place. Examples are: ``Greenbow'' or ``Vietnam''.
+
+\paragraph{Setting} (\texttt{setting}) further details the location by
+distinguishing places at the same major location, but are not in direct sight of
+each other. For example, Forrest Gump's elementary school and the high school's
+football field are both in Greenbow, Alabama but are not part of the same
+setting. A switch from one setting to another is typically synonymous with a
+transition to a new scene in a cinematographic sense. If the camera switched
+settings within a scene, the annotation deviates from the screenplay to make
+explicit the switch to another setting.
+
+\paragraph{Locale} (\texttt{locale}) subdivides settings into distinguishable
+locales. Indoors, a locale is congruent with a particular room enclosed by
+walls. For example, Forrest Gump's bedroom, the corridor downstairs, and the
+corridor upstairs are three different rooms inside the Gumps' house (setting)
+on the Gumps' property (major location). Outdoors, locales were distinguished
+when they were separated by a logical boundary, substantial distance, or shared
+no discernible landmarks. For example, the glade at the river and the location
+of the wounded Bubba are two different locales in the embattled jungle (setting)
+in Vietnam (major location). A locale's label is identical to its setting label
+when only one locale is depicted for that setting.
+
+
+\subsubsection*{Interior or exterior (\texttt{int\_or\_ext})}
+
+This flag indicates whether a particular location is an open
+(``\texttt{ext}'') or enclosed space (``\texttt{int}''), such as a building
+or a vehicle.
+
+
+\subsubsection*{Temporal progression (\texttt{flow\_of\_time})}
+
+This label indicates the depicted progression of time between the previous and
+the current shot. Four categories were distinguished: ``\texttt{-}'' labels a
+flashback, or jump into the past, independent of the temporal distance;
+``\texttt{0}'' indicates no noticeable break in the ongoing stream of time, for
+example a sole change of viewing perspective; ``\texttt{+}'' represents
+noticeable jumps in time, ranging from several seconds to about one or two
+hours; and lastly ``\texttt{++}'' marks major time jumps from several hours
+(e.g. night vs.~day) to several years.
+
+
+\subsubsection*{Time of day (\texttt{time\_of\_day})}
+
+This flag indicates whether a scene is at least partially illuminated by
+sunlight. Consequently, daytime and twilight (early sunrises and late sun
+settings) are labeled as ``\texttt{day}''. If sunlight is entirely missing, the
+time of day is coded as ``\texttt{night}''.
+
+
+
+\subsection*{Dataset content}
+
+% ~30 words
+The released annotation is a single, text-based, comma-separated-value (CSV)
+formatted table (\texttt{data/structure.csv}).
+
+The source code for all descriptive statistics included in this paper is
+available in \texttt{code/descriptive\_stats.py} (Python script).
 
 
 \section*{Dataset validation}
 % Information about any validation carried out and/or any limitations of the
 % datasets, including any allowances made for controlling bias or unwanted
 % sources of variability.
+
+% ~170 words
+To check for human error in the cut time annotation, timings were compared to
+the results of an automatic detection algorithm and any deviation was manually
+verified.
+
+In summary, the shortened version of the movie comprises \NShots\ shots
+(duration: min=\unit[\ShotLengthMin]{s}, max=\unit[\ShotLengthMax]{s},
+median=\unit[\ShotLengthMedian]{s}, SD=\unit[\ShotLengthSD]{s}). There are
+\NExteriorShots\ shots depicting outdoor locations and \NInteriorShots\
+interior shots. Most shots take place during daytime (\NDayShots\ day
+vs.~\NNightShots\ night). The majority of cuts involve no
+noticeable discontinuities of depicted time (\NShotsTimeNoJump), but there are
+\NShotsTimeSmallJump\ small and \NShotsTimeLargeJump\ large time jumps, as
+well as \NShotsTimeFlashback\ flashbacks.
+
+Table \ref{tab:stats} provides information on the portrayal of unique locations
+in the movie.
+
+
+\begin{table*}[b]
+  \centering
+  \caption{Descriptive statistics for all three levels of location annotation.
+    \textit{Number of shots} indicates the total number of shots in the movie
+    for any particular location. \textit{Number of consecutive shots} indicates
+    how many shots are shown between two location changes at the respective
+    level. \textit{Times revisited} indicates how often a location
+    reappears in the movie after it was depicted for the first time.}
+  \label{tab:stats}
+  \begin{tabular}{rrrrrrrrrrrrr}
+    %& \multicolumn{3}{l}{\textbf{Event definition min. agreement}} \\
+    % header
+    \toprule
+    &
+    \multicolumn{4}{c}{\textbf{major locations}} &
+    \multicolumn{4}{c}{\textbf{settings}} &
+    \multicolumn{4}{c}{\textbf{locales}} \\
+    \midrule
+    number of unique & \multicolumn{4}{c}{\NMajorLocations} & \multicolumn{4}{c}{\NSettings} & \multicolumn{4}{c}{\NLocales} \\
+    \midrule
+    % subheader
+    & min & med. & mean & max &
+      min & med. & mean & max &
+      min & med. & mean & max \\\\
+    number of shots
+    & \ShotsPerMajorLocationMin & \ShotsPerMajorLocationMedian & \ShotsPerMajorLocationMean & \ShotsPerMajorLocationMax 
+    & \ShotsPerSettingMin & \ShotsPerSettingMedian & \ShotsPerSettingMean & \ShotsPerSettingMax 
+    & \ShotsPerLocaleMin & \ShotsPerLocaleMedian & \ShotsPerLocaleMean & \ShotsPerLocaleMax
+    \\
+    number of consecutive shots
+    & \ConsecShotsPerMajorLocationMin & \ConsecShotsPerMajorLocationMedian & \ConsecShotsPerMajorLocationMean & \ConsecShotsPerMajorLocationMax 
+    & \ConsecShotsPerSettingMin & \ConsecShotsPerSettingMedian & \ConsecShotsPerSettingMean & \ConsecShotsPerSettingMax 
+    & \ConsecShotsPerLocaleMin & \ConsecShotsPerLocaleMedian & \ConsecShotsPerLocaleMean & \ConsecShotsPerLocaleMax
+    \\
+    times revisited
+    & \NTimesMajorLocationsRevisitedMin & \NTimesMajorLocationsRevisitedMedian & \NTimesMajorLocationsRevisitedMean & \NTimesMajorLocationsRevisitedMax 
+    & \NTimesSettingsRevisitedMin & \NTimesSettingsRevisitedMedian & \NTimesSettingsRevisitedMean & \NTimesSettingsRevisitedMax 
+    & \NTimesLocalesRevisitedMin & \NTimesLocalesRevisitedMedian & \NTimesLocalesRevisitedMean & \NTimesLocalesRevisitedMax
+    \\
+    \bottomrule
+  \end{tabular}
+\end{table*}
 
 
 \section*{Data availability}
@@ -64,6 +307,8 @@
 %individual contributions of each author to the manuscript should be detailed
 %in this section. We recommend using author initials and then stating briefly
 %how they contributed.
+CH designed, performed, and validated the annotation, and wrote the manuscript.
+MH provided critical feedback on the procedure and wrote the manuscript.
 
 \section*{Competing Interests}
 No competing interests were disclosed.
@@ -82,11 +327,17 @@ Project: Center for Behavioral Brain Sciences.
 %acknowledge from all those mentioned in the Acknowledgements section.  Please
 %do not list grant funding in this section (this should be included in the
 %Grant information section - See above).
+We are grateful to Daniel Kottke for cross-checking the timing of the cuts in
+the movie using an automated detection routine, and Alex Waite for editing this
+manuscript. We would also like to thank Gavin Theren for patiently sharing his
+cinematographic knowledge during movie watching and for his high-level
+gastronomic skills.
 
 %\nocite{*}
 {\small\bibliographystyle{unsrt}
-\bibliography{references}}
+\bibliography{references,bibliography_forrest_gump}}
 
+\end{multicols}
 \end{document}
 
 % vim: textwidth=80 colorcolumn=81
