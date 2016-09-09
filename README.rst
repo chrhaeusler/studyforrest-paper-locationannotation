@@ -4,9 +4,11 @@ An annotation of cuts, depicted locations, and temporal progression in the motio
 A detailed description of this dataset can be found in the open-access
 article:
 
-  Christian O. Häusler & Michael Hanke. An annotation of cuts, depicted
+  Christian O. Häusler & Michael Hanke (2016). An annotation of cuts, depicted
   locations, and temporal progression in the motion picture "Forrest Gump".
-  F1000Research 2016 (submitted).
+  *F1000Research*, 5:2273.
+
+  http://f1000research.com/articles/5-2273
 
 All data is released under the terms of the CC0 license.
 
